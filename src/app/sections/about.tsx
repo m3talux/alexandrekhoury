@@ -4,7 +4,7 @@ export function About() {
 
     return (
         <section className="bg-sky-600 flex flex-col lg:flex-row items-center content-center p-8 md:p-16">
-            <img src="/programmer.svg" className="max-w-xl w-1/2 lg:w-1/3" alt="Alexandre El Khoury | Software"/>
+            <img src="/svg/programmer.svg" className="max-w-xl w-1/2 lg:w-1/3" alt="Alexandre El Khoury | Software"/>
             <p className="leading-8 lg:leading-10 text-center mt-8 lg:text-left lg:ml-16 text-xl md:text-2xl">
                 Experienced software engineer with over {experienceYears} years of expertise in the software industry, specializing
                 primarily in back-end development. Skilled in cross-platform development and possessing a solid
