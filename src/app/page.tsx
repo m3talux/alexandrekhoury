@@ -7,6 +7,7 @@ import Experiences from "@/app/sections/experiences";
 export default function Home() {
     return (
         <main className="overflow-hidden">
+            <h1 className="hidden">Alexandre El Khoury | Software Engineer</h1>
             <Nav/>
             <div className="mt-8 md:mt-32"/>
             <Main/>

@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /svg/
+Disallow: /files/
+Disallow: /images/
+Sitemap: sitemap.xml
