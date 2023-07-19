@@ -25,9 +25,9 @@ export default function Experience() {
                 className="w-full h-[80px] bg-sky-950 rounded-t-3xl flex flex-row justify-between items-center px-8 border-b-[1px] border-gray-900 border-opacity-30">
                 <h2 className="text-xl lg:text-3xl font-bold">My Experience</h2>
                 <div className="flex flex-row justify-center items-center">
-                    <div className="w-6 h-6 rounded-full bg-yellow-600 mr-4"/>
-                    <div className="w-6 h-6 rounded-full bg-green-600 mr-4"/>
-                    <div className="w-6 h-6 rounded-full bg-red-600"/>
+                    <div className="w-4 h-4 lg:w-6 lg:h-6 rounded-full bg-yellow-600 mr-4"/>
+                    <div className="w-4 h-4 lg:w-6 lg:h-6 rounded-full bg-green-600 mr-4"/>
+                    <div className="w-4 h-4 lg:w-6 lg:h-6 rounded-full bg-red-600"/>
                 </div>
             </div>
             <div className="min-h-[1100px] w-full bg-sky-950 rounded-b-3xl flex flex-col lg:flex-row">
@@ -200,7 +200,7 @@ function Inntrend() {
     return (
         <div>
             <a href="https://www.facebook.com/inntrends/" target="_blank">
-                <img src="/images/inntrend.jpeg" width={200} alt="InnTrend | https://www.facebook.com/inntrends"/>
+                <img src="/images/inntrend.jpg" width={200} alt="InnTrend | https://www.facebook.com/inntrends"/>
             </a>
             <div className="flex flex-row mt-16 items-start lg:items-center text-md lg:text-xl">
                 <h3 className="font-bold mr-4">Position:</h3>
