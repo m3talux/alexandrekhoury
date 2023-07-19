@@ -5,6 +5,7 @@ import {Jura} from 'next/font/google'
 const inter = Jura({weight: '500', subsets: ['latin']})
 
 export const metadata: Metadata = {
+    metadataBase: new URL('https://alexandrekhoury.dev'),
     title: 'Alexandre El Khoury | Software Engineer',
     description: 'Experienced software engineer with 5+ years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
     authors: [
@@ -20,8 +21,9 @@ export const metadata: Metadata = {
         description: 'Experienced software engineer with 5+ years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
         images: [
             {
-                url: '/avatar.svg',
+                url: '/svg/avatar.svg',
                 alt: 'Alexandre El Khoury | Software Engineer',
+
             },
         ],
     },
@@ -30,7 +32,7 @@ export const metadata: Metadata = {
         description: 'Experienced software engineer with 5+ years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
         images: [
             {
-                url: '/avatar.svg',
+                url: '/svg/avatar.svg',
                 alt: 'Alexandre El Khoury | Software Engineer',
             },
         ],
