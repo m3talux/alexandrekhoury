@@ -188,7 +188,7 @@ function PolarStork() {
                 </ul>
             </div>
             <div className="flex flex-col lg:flex-row mt-16">
-                <KPICard title="Projects" kpi="7" description="Created & Maintained" margin={true}/>
+                <KPICard title="Projects" kpi="7" description="Contributor" margin={true}/>
                 <KPICard title="Projects" kpi="2" description="Lead" margin={true}/>
                 <KPICard title="Technologies" kpi="2" description="Used" margin={false}/>
             </div>
