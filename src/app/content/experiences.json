@@ -1,0 +1,97 @@
+[
+  {
+    "companyTitle": "Kardinal",
+    "companyImg": "/images/kardinal.png",
+    "companyURL": "https://kardinal.ai/",
+    "title": "Golang Backend Engineer",
+    "period": "March, 2021 - Current",
+    "type": "Full-Time",
+    "location": "Paris, France",
+    "achievements": [
+      "Developed and maintained internal libraries: Took ownership of crucial internal libraries including a RabbitMQ client, Cucumber testing in Go, and a module bootstraping tool. Ensured their stability, reliability, and availability for seamless integration across projects.",
+      "Created and managed multiple microservices in Go: Designed, implemented, and maintained various microservices, including APIs, tooling services, and Key Performance Indicators (KPIs) tracking. Leveraged Go's strengths to build efficient and scalable solutions.",
+      "Enhanced performance of a critical API: Identified performance bottlenecks in a critical API and successfully optimized its performance, resulting in a remarkable 70% improvement. This optimization positively impacted the overall system's responsiveness and user experience.",
+      "Revamped module architecture for scalability and maintainability: Recognizing the need for scalability and maintainability, I challenged and reevaluated the existing module architecture. Proposed and implemented improvements to ensure flexibility, modularity, and ease of future enhancements.",
+      "Provided critical analysis and benchmarking: Actively participated in technology discussions, challenging and questioning technological choices when necessary. Conducted in-depth benchmarks and analysis, presenting statistical data to support my recommendations for better technological selections."
+    ],
+    "kpis": [
+      {
+        "title": "Libraries",
+        "kpi": "5",
+        "description": "Created & Maintained"
+      },
+      {
+        "title": "Microservices",
+        "kpi": "12",
+        "description": "Created & Maintained"
+      },
+      {
+        "title": "APIs",
+        "kpi": "+100",
+        "description": "Developed"
+      }
+    ]
+  },
+  {
+    "companyTitle": "PolarStork",
+    "companyImg": "/svg/polarstork.svg",
+    "companyURL": "https://polarstork.com/",
+    "title": "Full Stack Software Engineer",
+    "period": "May, 2019 - April 2021",
+    "type": "Full-Time",
+    "location": "Remote",
+    "achievements": [
+      "Stack and Architecture decision making: Played an active role in the decision-making process for selecting appropriate technology stacks and defining the system architecture. Utilized my expertise to evaluate options and make informed decisions that aligned with project requirements and goals.",
+      "Championed the adoption of new frameworks and technologies: Introduced Flutter as a potential solution upon joining the team and successfully influenced its adoption as the primary framework. This decision positively impacted development efficiency, codebase maintainability, and cross-platform capabilities.",
+      "Developed full-stack web and mobile applications: Collaborated on the development of numerous web and mobile applications across diverse industries, including food, virtual reality (VR), education, and health. Contributed to the entire software development life cycle, from concept and design to implementation and deployment.",
+      "Assumed the role of Technical Lead in a VoIP mobile application: Led a team in the development of a VoIP mobile application, serving as a charity project dedicated to supporting the Lebanese Red Cross during the pandemic. Oversaw the technical aspects of the project, provided guidance to team members, and ensured the successful delivery of the application."
+    ],
+    "kpis": [
+      {
+        "title": "Projects",
+        "kpi": "7",
+        "description": "Contributor"
+      },
+      {
+        "title": "Projects",
+        "kpi": "2",
+        "description": "Lead"
+      },
+      {
+        "title": "Technologies",
+        "kpi": "10",
+        "description": "Used"
+      }
+    ]
+  },
+  {
+    "companyTitle": "InnTrend",
+    "companyImg": "/images/inntrend.jpg",
+    "companyURL": "https://www.facebook.com/inntrends/",
+    "title": "Full Stack Software Developer",
+    "period": "November, 2017 - January 2019",
+    "type": "Contract",
+    "location": "Beirut, Lebanon",
+    "achievements": [
+      "Sole developer for the project: Acted as the sole developer on the team, working alongside three individuals responsible for the business side of the project. Successfully managed the entire software development process, taking ownership of both the backend and frontend components.",
+      "Developed and maintained the API with Spring Boot: Utilized the Spring Boot framework to design, develop, and maintain the backend API of the Quality Management platform. Implemented robust and efficient solutions, ensuring smooth communication between the frontend and backend components.",
+      "Developed and maintained the web application in Angular 6: Leveraged Angular 6 to build and maintain the web application interface for the Quality Management platform. Developed responsive and user-friendly features, enhancing the overall user experience and interface design."
+    ],
+    "kpis": []
+  },
+  {
+    "companyTitle": "Apps2You",
+    "companyImg": "/images/apps2you.png",
+    "companyURL": "https://www.apps2you.com/",
+    "title": "Android Developer",
+    "period": "August, 2016 - September 2016",
+    "type": "Internship",
+    "location": "Beirut, Lebanon",
+    "achievements": [
+      "Acquired a solid foundation in Android Development: Delved into the core concepts and principles essential to Android application development. Demonstrated a commitment to learning and mastering the intricacies of the Android ecosystem.",
+      "Gained expertise in Android Application Life Cycles: Immerse myself in understanding the intricate life cycles of Android applications. This encompassed comprehensive knowledge of the sequence of events and behaviors exhibited by applications throughout their existence, ensuring optimal performance and responsiveness.",
+      "Proficiently implemented various data persistence techniques: Demonstrated proficiency in diverse approaches to persisting data in Android applications. Acquired in-depth knowledge of the various mechanisms and frameworks available for efficient data storage and retrieval, resulting in robust and reliable applications."
+    ],
+    "kpis": []
+  }
+]
