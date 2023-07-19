@@ -9,6 +9,9 @@ export function Main() {
             <p className="text-gray-600 text-center text-xl md:text-3xl mt-2 md:mt-4">Pleased to meet you!</p>
             <div className="mt-8"/>
             <Socials/>
+            <div className="mt-8">
+                <label className="bg-sky-950 p-4 rounded-xl">Website Under Construction</label>
+            </div>
         </section>
     )
 }
