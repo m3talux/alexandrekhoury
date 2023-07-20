@@ -3,6 +3,7 @@ import Nav from "@/app/components/nav";
 import {About} from "@/app/sections/about";
 import Skills from "@/app/sections/skills";
 import Experiences from "@/app/sections/experiences";
+import Footer from "@/app/sections/footer";
 
 export default function Home() {
     return (
@@ -11,11 +12,13 @@ export default function Home() {
             <Nav/>
             <div className="mt-8 md:mt-32"/>
             <Main/>
-            <div className="mt-8 md:mt-32"/>
+            <div className="mt-16 md:mt-32"/>
             <About/>
             <Skills/>
-            <div className="mt-8 md:mt-32"/>
+            <div className="mt-32"/>
             <Experiences/>
+            <div className="mt-32"/>
+            <Footer/>
         </main>
     )
 }
