@@ -20,7 +20,7 @@ export default function Experiences() {
             </div>
             <div className="min-h-[1100px] w-full bg-sky-950 rounded-b-3xl flex flex-col lg:flex-row">
                 <div
-                    className="flex lg:flex-col overflow-auto flex-row h-full w-full lg:w-[200px] border-r-0 lg:border-r-[1px] border-gray-900 border-opacity-30">
+                    className="flex lg:flex-col overflow-auto min-w-[200px] flex-row h-full w-full lg:w-[200px] border-r-0 lg:border-r-[1px] border-gray-900 border-opacity-30">
                     {
                         experiences.map((exp: IExperience, i: number) => (
                                 <div key={i} onClick={() => setIndex(i)}
