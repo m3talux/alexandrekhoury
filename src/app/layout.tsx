@@ -36,6 +36,10 @@ export const metadata: Metadata = {
                 alt: 'Alexandre El Khoury | Software Engineer',
             },
         ],
+    },
+    other: {
+        'yandex-verification': 'd235f2fc4d601d71',
+        'msvalidate.01': 'E79B7A44CA3DEA8C9A02400CB1037580'
     }
 }
 
