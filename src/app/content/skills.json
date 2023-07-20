@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Languages",
+    "skills": [
+      {
+        "imageURL": "/svg/go.svg",
+        "title": "Go"
+      },
+      {
+        "imageURL": "/svg/dart.svg",
+        "title": "Dart"
+      },
+      {
+        "imageURL": "/svg/java.svg",
+        "title": "Java"
+      },
+      {
+        "imageURL": "/svg/javascript.svg",
+        "title": "Javascript"
+      },
+      {
+        "imageURL": "/svg/typescript.svg",
+        "title": "Typescript"
+      },
+      {
+        "imageURL": "/svg/python.svg",
+        "title": "Python"
+      }
+    ]
+  },
+  {
+    "title": "Backend",
+    "skills": [
+      {
+        "imageURL": "/svg/gin.svg",
+        "title": "Gin"
+      },
+      {
+        "imageURL": "/svg/fiber.svg",
+        "title": "Fiber"
+      },
+      {
+        "imageURL": "/svg/nodejs.svg",
+        "title": "NodeJS"
+      },
+      {
+        "imageURL": "/svg/nestjs.svg",
+        "title": "NestJS"
+      },
+      {
+        "imageURL": "/svg/spring.svg",
+        "title": "Spring Boot"
+      },
+      {
+        "imageURL": "/svg/django.svg",
+        "title": "Django"
+      }
+    ]
+  },
+  {
+    "title": "Frontend",
+    "skills": [
+      {
+        "imageURL": "/svg/flutter.svg",
+        "title": "Flutter"
+      },
+      {
+        "imageURL": "/svg/next.svg",
+        "title": "NextJS"
+      },
+      {
+        "imageURL": "/svg/react.svg",
+        "title": "RactJS"
+      },
+      {
+        "imageURL": "/svg/angular.svg",
+        "title": "Angular"
+      }
+    ]
+  },
+  {
+    "title": "DevOps",
+    "skills": [
+      {
+        "imageURL": "/svg/firebase.svg",
+        "title": "Firebase"
+      },
+      {
+        "imageURL": "/svg/docker.svg",
+        "title": "Docker"
+      },
+      {
+        "imageURL": "/svg/aws.svg",
+        "title": "AWS"
+      },
+      {
+        "imageURL": "/svg/mongo.svg",
+        "title": "MongoDB"
+      },
+      {
+        "imageURL": "/svg/postgresql.svg",
+        "title": "PostgreSQL"
+      }
+    ]
+  }
+]
