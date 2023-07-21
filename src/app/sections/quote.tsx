@@ -12,13 +12,13 @@ export default function Quote() {
                 </svg>
 
                 <div className="relative z-10">
-                    <p className="text-xl text-gray-800 md:text-3xl md:leading-normal"><em>
+                    <p className="text-xl text-gray-600 md:text-3xl md:leading-normal"><em>
                         Success is not final, failure is not fatal: It is the courage to continue that counts.
                     </em></p>
                 </div>
 
                 <footer className="mt-6">
-                    <div className="text-base font-semibold text-gray-800">Winston Churchill</div>
+                    <div className="text-base font-semibold text-gray-700">Winston Churchill</div>
                 </footer>
             </blockquote>
         </section>
