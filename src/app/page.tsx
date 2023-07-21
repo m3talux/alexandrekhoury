@@ -4,6 +4,7 @@ import {About} from "@/app/sections/about";
 import Skills from "@/app/sections/skills";
 import Experiences from "@/app/sections/experiences";
 import Footer from "@/app/sections/footer";
+import Quote from "@/app/sections/quote";
 
 export default function Home() {
     return (
@@ -15,6 +16,8 @@ export default function Home() {
             <div className="mt-16 md:mt-32"/>
             <About/>
             <Skills/>
+            <div className="mt-48"/>
+            <Quote/>
             <div className="mt-32"/>
             <Experiences/>
             <div className="mt-32"/>
