@@ -7,7 +7,7 @@ const inter = Jura({weight: '500', subsets: ['latin']})
 export const metadata: Metadata = {
     metadataBase: new URL('https://alexandrekhoury.com'),
     title: 'Alexandre El Khoury | Software Engineer',
-    description: 'Experienced software engineer with 5+ years in back-end, cross-platform, and front-end dev. Passionate, adaptable, and highly productive with clean, quality code.',
+    description: 'Experienced software engineer | Back-end, cross-platform & front-end dev | Passionate, adaptable & highly productive with clean code.',
     themeColor: '#028ac7',
     manifest: '/site.webmanifest',
     icons: [
