@@ -3,7 +3,7 @@ export default function Quote() {
         <section className="flex justify-center px-16 lg:px-48 bg-gray-100 bg-opacity-50 py-16">
             <blockquote className="relative">
                 <svg
-                    className="absolute top-0 left-0 transform -translate-x-6 -translate-y-8 h-16 w-16 text-gray-100"
+                    className="absolute top-0 left-0 transform -translate-x-6 -translate-y-8 h-16 w-16 text-gray-200"
                     width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true">
                     <path
