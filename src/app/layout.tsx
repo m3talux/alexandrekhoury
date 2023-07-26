@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         description: 'Experienced software engineer with 5+ years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
         images: [
             {
-                url: '/svg/avatar.svg',
+                url: '/images/og-image.png',
                 alt: 'Alexandre El Khoury | Software Engineer',
 
             },
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
         description: 'Experienced software engineer with 5+ years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
         images: [
             {
-                url: '/svg/avatar.svg',
+                url: '/images/og-image.png',
                 alt: 'Alexandre El Khoury | Software Engineer',
             },
         ],
