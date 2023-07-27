@@ -1,6 +1,7 @@
 import './globals.css'
 import type {Metadata} from 'next'
 import {Jura} from 'next/font/google'
+import Script from "next/script";
 
 const inter = Jura({weight: '500', subsets: ['latin']})
 
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: 'website',
         url: '/',
-        locale: 'en-US',
+        locale: 'en_US',
         title: 'Alexandre El Khoury | Software Engineer',
         description: 'Experienced software engineer with 5+ years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
         images: [
@@ -71,13 +72,20 @@ export const metadata: Metadata = {
     }
 }
 
-export default function RootLayout({
-    children,
-}: {
-    children: React.ReactNode
-}) {
+export default function RootLayout({children}: { children: React.ReactNode }) {
+    const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
     return (
         <html lang="en">
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="afterInteractive"/>
+        <Script id="google-analytics" strategy="afterInteractive">
+            {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){window.dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}');
+            `}
+        </Script>
         <body className={inter.className}>{children}</body>
         </html>
     )

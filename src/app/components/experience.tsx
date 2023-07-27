@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Experience(experience: IExperience) {
     return (
         <div>
-            <a href={experience.companyURL} target="_blank">
+            <a href={experience.companyURL} target="_blank" title={experience.companyTitle}>
                 <Image src={`${experience.companyImg}`} width={200} height={80} alt={experience.companyURL}/>
             </a>
             <div className="flex flex-row mt-16 items-start lg:items-center text-md lg:text-xl">
