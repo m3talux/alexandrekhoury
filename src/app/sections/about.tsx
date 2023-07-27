@@ -9,7 +9,8 @@ export function About() {
             <Image src="/svg/programmer.svg" className="max-w-xl w-1/2 lg:w-1/3" alt="Alexandre El Khoury | Software"
                    width={786} height={572}/>
             <p className="leading-8 lg:leading-10 text-center mt-8 lg:text-left lg:ml-16 text-lg sm:text-xl md:text-2xl">
-                Hey there, I&apos;m Alex, a passionate and dedicated software engineer with 5+ years of expertise in the
+                Hey there, I&apos;m Alex, a passionate and dedicated software engineer with over {experienceYears} years
+                of expertise in the
                 dynamic software industry. My journey in coding began at the age of 17, and since then, I&apos;ve honed
                 my
                 skills to specialize primarily in back-end development while also possessing a solid foundation in

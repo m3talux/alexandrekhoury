@@ -2,6 +2,7 @@ import './globals.css'
 import type {Metadata} from 'next'
 import {Jura} from 'next/font/google'
 import Script from "next/script";
+import person from "@/app/content/person-markup.json"
 
 const inter = Jura({weight: '500', subsets: ['latin']})
 
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
         url: '/',
         locale: 'en_US',
         title: 'Alexandre El Khoury | Software Engineer',
-        description: 'Experienced software engineer with 5+ years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
+        description: 'Experienced software engineer with over 5 years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
         images: [
             {
                 url: '/images/og-image.png',
@@ -57,7 +58,7 @@ export const metadata: Metadata = {
     },
     twitter: {
         title: 'Alexandre El Khoury | Software Engineer',
-        description: 'Experienced software engineer with 5+ years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
+        description: 'Experienced software engineer with over 5 years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
         images: [
             {
                 url: '/images/og-image.png',
@@ -77,6 +78,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
 
     return (
         <html lang="en">
+        <body className={inter.className}>{children}</body>
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="afterInteractive"/>
         <Script id="google-analytics" strategy="afterInteractive">
             {`
@@ -86,7 +88,8 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
                 gtag('config', '${GA_MEASUREMENT_ID}');
             `}
         </Script>
-        <body className={inter.className}>{children}</body>
+        <Script key="structured-data" id="structured-data" type="application/ld+json"
+                dangerouslySetInnerHTML={{__html: JSON.stringify(person)}}/>
         </html>
     )
 }
