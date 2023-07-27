@@ -13,12 +13,13 @@ export default function Quote() {
 
                 <div className="relative z-10">
                     <p className="text-xl text-gray-600 md:text-3xl md:leading-normal"><em>
-                        Success is not final, failure is not fatal: It is the courage to continue that counts.
+                        Character cannot be developed in ease and quiet. Only through experience of trial and suffering
+                        can the soul be strengthened, ambition inspired, and success achieved.
                     </em></p>
                 </div>
 
                 <footer className="mt-6">
-                    <div className="text-base font-semibold text-gray-700">Winston Churchill</div>
+                    <div className="text-base font-semibold text-gray-700">Helen Keller</div>
                 </footer>
             </blockquote>
         </section>
