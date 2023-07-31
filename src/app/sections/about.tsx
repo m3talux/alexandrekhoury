@@ -5,7 +5,7 @@ export function About() {
     const experienceYears = currentYear - 2018;
 
     return (
-        <section className="bg-[var(--primary-color)] flex flex-col lg:flex-row items-center content-center p-8 md:p-16">
+        <section id="about" className="bg-[var(--primary-color)] flex flex-col lg:flex-row items-center content-center p-8 md:p-16">
             <Image src="/svg/programmer.svg" className="max-w-xl w-1/2 lg:w-1/3" alt="Alexandre El Khoury | Software"
                    width={786} height={572}/>
             <p className="leading-8 lg:leading-10 text-white text-center mt-8 lg:text-left lg:ml-16 text-lg sm:text-xl md:text-2xl">

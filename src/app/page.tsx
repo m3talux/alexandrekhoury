@@ -12,9 +12,7 @@ export default function Home() {
         <main className="overflow-hidden">
             <h1 className="hidden">Alexandre El Khoury | Software Engineer</h1>
             <Nav/>
-            <div className="mt-8 md:mt-32"/>
             <Main/>
-            <div className="mt-16 md:mt-32"/>
             <About/>
             <Skills/>
             <div className="mt-48"/>
