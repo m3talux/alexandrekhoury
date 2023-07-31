@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 255, 255, 255;
+  --bg-color: #fff;
+  --primary-color: #028ac7;
+  --accent-color: #082F49FF;
+  --text-color: #374151FF;
 }
 
 ::-webkit-scrollbar{
@@ -27,7 +30,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    /*--bg-color: #35363a;*/
+    /*--primary-color: #202124;*/
+    /*--text-color: #FFF;*/
   }
 }
 
@@ -36,6 +41,7 @@ html {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  background-color: var(--bg-color);
+  color: rgb(var(--text-color));
   overflow-x: hidden;
 }

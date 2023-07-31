@@ -49,51 +49,51 @@ export default function Contact() {
 
     return (
         <section id="contact" className="p-8">
-            <h2 className="text-gray-700 font-bold text-5xl">Let&apos;s Chat</h2>
+            <h2 className="text-[var(--text-color)] font-bold text-5xl">Let&apos;s Chat</h2>
             <form className="mt-16" onSubmit={handleSubmit}>
                 <div className="grid gap-6 mb-6 md:grid-cols-2">
                     <div>
                         <label htmlFor="first_name"
-                               className="block mb-2 text-sm font-medium text-gray-700">First
+                               className="block mb-2 text-sm font-medium text-[var(--text-color)]">First
                             name</label>
                         <input type="text" id="first_name"
-                               className="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2.5 focus:outline-none"
+                               className="bg-gray-50 border border-gray-300 text-[var(--text-color)] text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2.5 focus:outline-none"
                                placeholder="John" value={firstname} onChange={(e) => setFirstname(e.target.value)}
                                readOnly={loading}
                                required/>
                     </div>
                     <div>
                         <label htmlFor="last_name"
-                               className="block mb-2 text-sm font-medium text-gray-700">Last
+                               className="block mb-2 text-sm font-medium text-[var(--text-color)]">Last
                             name</label>
                         <input type="text" id="last_name"
-                               className="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2.5 focus:outline-none"
+                               className="bg-gray-50 border border-gray-300 text-[var(--text-color)] text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2.5 focus:outline-none"
                                placeholder="Doe" value={lastname} onChange={(e) => setLastname(e.target.value)}
                                readOnly={loading}
                                required/>
                     </div>
                 </div>
                 <div className="mb-6">
-                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-700">Email
+                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-[var(--text-color)]">Email
                         address</label>
                     <input type="email" id="email"
-                           className="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2.5 focus:outline-none"
+                           className="bg-gray-50 border border-gray-300 text-[var(--text-color)] text-sm rounded-lg focus:ring-blue-500 focus:border-gray-400 block w-full p-2.5 focus:outline-none"
                            placeholder="john.doe@company.com" value={email} onChange={(e) => setEmail(e.target.value)}
                            readOnly={loading}
                            required/>
                 </div>
                 <div className="mb-6">
                     <label htmlFor="message"
-                           className="block mb-2 text-sm font-medium text-gray-700">Your
+                           className="block mb-2 text-sm font-medium text-[var(--text-color)]">Your
                         message</label>
                     <textarea id="message" rows={10}
-                              className="block p-2.5 w-full text-sm text-gray-700 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-gray-400 focus:outline-none"
+                              className="block p-2.5 w-full text-sm text-[var(--text-color)] bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-gray-400 focus:outline-none"
                               placeholder="Write your message here..." value={message}
                               readOnly={loading}
                               onChange={(e) => setMessage(e.target.value)} required></textarea>
                 </div>
                 <button type="submit" disabled={loading}
-                        className="flex justify-center items-center text-white bg-sky-600 hover:bg-sky-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md w-full sm:w-auto px-8 py-2.5 text-center">
+                        className="flex justify-center items-center text-white bg-[var(--primary-color)] hover:bg-sky-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md w-full sm:w-auto px-8 py-2.5 text-center">
                     {
                         loading &&
                         <svg aria-hidden="true" role="status" className="inline mr-3 w-4 h-4 text-white animate-spin"
