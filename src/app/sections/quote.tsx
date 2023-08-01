@@ -1,6 +1,6 @@
 export default function Quote() {
     return (
-        <section className="flex justify-center px-16 lg:px-48 bg-gray-100 bg-opacity-50 py-16">
+        <section className="flex justify-center px-16 lg:px-48 bg-gray-100 bg-opacity-50 py-16 my-16">
             <blockquote className="relative">
                 <svg
                     className="absolute top-0 left-0 transform -translate-x-6 -translate-y-8 h-16 w-16 text-gray-200"

@@ -8,7 +8,7 @@ export default function Experiences() {
     const [index, setIndex] = useState(0);
 
     return (
-        <section className="p-2 lg:p-8 text-white">
+        <section className="p-2 lg:p-8 text-white my-32">
             <div
                 className="w-full h-[80px] bg-sky-950 rounded-t-3xl flex flex-row justify-between items-center px-8 border-b-[1px] border-gray-900 border-opacity-30">
                 <h2 className="text-xl lg:text-3xl font-bold">My Experience</h2>

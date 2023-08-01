@@ -5,5 +5,6 @@ interface ISkill {
 
 interface ISkillCategory {
     title: string;
+    imageURL: string;
     skills: ISkill[];
 }

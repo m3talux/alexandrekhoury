@@ -1,6 +1,7 @@
 [
   {
     "title": "Languages",
+    "imageURL": "/svg/programming-languages.svg",
     "skills": [
       {
         "imageURL": "/svg/go.svg",
@@ -30,6 +31,7 @@
   },
   {
     "title": "Backend",
+    "imageURL": "/svg/backend.svg",
     "skills": [
       {
         "imageURL": "/svg/gin.svg",
@@ -59,6 +61,7 @@
   },
   {
     "title": "Frontend",
+    "imageURL": "/svg/frontend.svg",
     "skills": [
       {
         "imageURL": "/svg/flutter.svg",
@@ -80,6 +83,7 @@
   },
   {
     "title": "DevOps",
+    "imageURL": "/svg/devops.svg",
     "skills": [
       {
         "imageURL": "/svg/firebase.svg",

@@ -48,7 +48,7 @@ export default function Contact() {
     }
 
     return (
-        <section id="contact" className="p-8">
+        <section id="contact" className="p-8 my-32">
             <h2 className="text-[var(--text-color)] font-bold text-5xl">Let&apos;s Chat</h2>
             <form className="mt-16" onSubmit={handleSubmit}>
                 <div className="grid gap-6 mb-6 md:grid-cols-2">

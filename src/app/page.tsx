@@ -15,13 +15,9 @@ export default function Home() {
             <Main/>
             <About/>
             <Skills/>
-            <div className="mt-48"/>
             <Quote/>
-            <div className="mt-32"/>
             <Experiences/>
-            <div className="mt-32"/>
             <Contact/>
-            <div className="mt-32"/>
             <Footer/>
         </main>
     )

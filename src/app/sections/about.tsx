@@ -5,11 +5,12 @@ export function About() {
     const experienceYears = currentYear - 2018;
 
     return (
-        <section id="about" className="bg-[var(--primary-color)] flex flex-col lg:flex-row items-center content-center p-8 md:p-16">
+        <section id="about"
+                 className="bg-[var(--primary-color)] flex flex-col lg:flex-row items-center content-center p-8 md:p-16">
             <Image src="/svg/programmer.svg" className="max-w-xl w-1/2 lg:w-1/3" alt="Alexandre El Khoury | Software"
                    width={786} height={572}/>
-            <p className="leading-8 lg:leading-10 text-white text-center mt-8 lg:text-left lg:ml-16 text-lg sm:text-xl md:text-2xl">
-                Hey there, I&apos;m Alex, a passionate and dedicated software engineer with over {experienceYears} years
+            <p className="!leading-8 text-white text-center mt-8 lg:mt-0 lg:text-left lg:ml-16 text-md sm:text-lg md:text-xl">
+                I&apos;m Alex, a passionate and dedicated software engineer with over {experienceYears} years
                 of expertise in the
                 dynamic software industry. My journey in coding began at the age of 17, and since then, I&apos;ve honed
                 my
@@ -30,10 +31,7 @@ export function About() {
                 world of finance and trading, where I&apos;m always on the lookout for new opportunities. Moreover,
                 I&apos;m
                 deeply fascinated by the potential of web3 technologies and their impact on shaping the future of the
-                internet. If you&apos;re looking for a proactive and forward-thinking software engineer, let&apos;s
-                connect and
-                discuss how we can collaborate to achieve remarkable outcomes. Together, we can create innovative
-                solutions that leave a positive and lasting impact.
+                internet.
             </p>
         </section>
     )
