@@ -1,8 +1,15 @@
 import Image from "next/image";
 
 export function About() {
-    const currentYear = new Date().getFullYear();
-    const experienceYears = currentYear - 2018;
+    const currentDate = new Date();
+    const november2017 = new Date('2017-11-01');
+
+    // @ts-ignore
+    const experienceInMilliseconds = currentDate - november2017;
+    const millisecondsInYear = 1000 * 60 * 60 * 24 * 365.25;
+
+    const experienceYears = Math.round(experienceInMilliseconds / millisecondsInYear);
+
 
     return (
         <section id="about"
