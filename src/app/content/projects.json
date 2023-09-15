@@ -1,0 +1,107 @@
+[
+  {
+    "projectName": "RugPullFinder",
+    "projectImage": "/images/rpf.png",
+    "projectUrl": "https://www.rugpullfinder.io/",
+    "position": "Tech Lead",
+    "technologies": [
+      "/svg/dart.svg",
+      "/svg/flutter.svg",
+      "/svg/go.svg",
+      "/svg/gin.svg",
+      "/svg/mongo-icon.svg",
+      "/svg/postgresql.svg"
+    ],
+    "summary": "I began my journey with RPF as a part-time NFT project researcher. Eventually, I assumed the role of the group's technical lead, focusing on enhancing the NFT project vetting system to protect users from scams. This role allowed me to explore various Web3 technologies and utilize Twitter's API to gather information on flagged accounts."
+  },
+  {
+    "projectName": "Doxd",
+    "projectImage": "/images/doxd.png",
+    "projectUrl": "https://www.doxd.io/",
+    "position": "Web3 Developer",
+    "technologies": [
+      "/svg/dart.svg",
+      "/svg/flutter.svg",
+      "/svg/firebase.svg",
+      "/svg/typescript.svg"
+    ],
+    "summary": "I crafted and implemented the initial Ethereum payment process using widely-used web3 libraries. This also involved programmatically overseeing the user's KYC progress for the MVP application."
+  },
+  {
+    "projectName": "Kitco",
+    "projectImage": "/images/kitco.png",
+    "projectUrl": "https://kitcodmcc.com/",
+    "position": "Front End Developer",
+    "technologies": [
+      "/svg/typescript.svg",
+      "/svg/angular.svg"
+    ],
+    "summary": "Designed and developed Kitco's public facing website."
+  },
+  {
+    "projectName": "Eat Offbeat",
+    "projectImage": "/images/eatoffbeat.png",
+    "projectUrl": "https://www.eatoffbeat.com/",
+    "position": "Full Stack Developer",
+    "technologies": [
+      "/svg/javascript.svg",
+      "/svg/typescript.svg",
+      "/svg/angular.svg",
+      "/svg/nodejs.svg",
+      "/svg/nestjs.svg"
+    ],
+    "summary": "I primarily took the lead on developing the custom CMS application and designing the ordering system UI. Additionally, I contributed to the ongoing process of refactoring the API, transitioning it from NodeJS to NestJS."
+  },
+  {
+    "projectName": "RescueX",
+    "projectImage": "/images/rescuex.png",
+    "projectUrl": "https://rescuextraining.com/",
+    "position": "Full Stack Developer",
+    "technologies": [
+      "/svg/dart.svg",
+      "/svg/flutter.svg",
+      "/svg/go.svg",
+      "/svg/gin.svg",
+      "/svg/mongo-icon.svg",
+      "/svg/firebase.svg"
+    ],
+    "summary": "I played a key role in designing and developing APIs, microservices, and intricate authentication systems. I was also actively involved in shaping the concept of both the mobile and web applications."
+  },
+  {
+    "projectName": "AppApp",
+    "projectImage": "/images/appapp.png",
+    "projectUrl": "https://www.facebook.com/appappinc",
+    "position": "Mobile Developer",
+    "technologies": [
+      "/svg/dart.svg",
+      "/svg/flutter.svg",
+      "/svg/firebase.svg"
+    ],
+    "summary": "I was highly engaged in all development phases of the AppApp MVP mobile application."
+  },
+  {
+    "projectName": "12aside",
+    "projectImage": "/images/twelveaside.png",
+    "projectUrl": "https://12aside.com/",
+    "position": "Backend Developer",
+    "technologies": [
+      "/svg/python.svg",
+      "/svg/django.svg"
+    ],
+    "summary": "I revamped and enhanced the API for the 12-aside football betting web application."
+  },
+  {
+    "projectName": "MyWorldGlobal",
+    "projectImage": "/images/mwg.png",
+    "projectUrl": "https://myworldvirtual.com/",
+    "position": "Full Stack Developer",
+    "technologies": [
+      "/svg/typescript.svg",
+      "/svg/react.svg",
+      "/svg/go.svg",
+      "/svg/gin.svg",
+      "/svg/postgresql.svg"
+    ],
+    "summary": "I had a comprehensive role in the MyWorldGlobal/MyWorldVirtual VR application, encompassing customization of the open-source VR engine (Hubs by Mozilla), API design and development, and contributing to the creation of the public-facing website."
+  }
+]

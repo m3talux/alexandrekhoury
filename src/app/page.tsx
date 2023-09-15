@@ -6,6 +6,7 @@ import Experiences from "@/app/sections/experiences";
 import Footer from "@/app/sections/footer";
 import Quote from "@/app/sections/quote";
 import Contact from "@/app/sections/contact";
+import Projects from "@/app/sections/projects";
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <Skills/>
             <Quote/>
             <Experiences/>
+            <Projects/>
             <Contact/>
             <Footer/>
         </main>
