@@ -1,7 +1,8 @@
 interface IProject {
-    projectName: string
-    projectImage: string
-    projectUrl: string
+    name: string
+    image: string
+    imageWidth: number
+    url: string
     position: string
     technologies: string[]
     summary: string
