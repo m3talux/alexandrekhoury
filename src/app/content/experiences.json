@@ -1,7 +1,7 @@
 [
   {
     "companyTitle": "Kardinal",
-    "companyImg": "/images/kardinal.png",
+    "companyImg": "/svg/kardinal.svg",
     "companyURL": "https://kardinal.ai/",
     "title": "Golang Backend Engineer",
     "period": "March, 2021 - Current",
@@ -76,21 +76,6 @@
       "Sole developer for the project: Acted as the sole developer on the team, working alongside three individuals responsible for the business side of the project. Successfully managed the entire software development process, taking ownership of both the backend and frontend components.",
       "Developed and maintained the API with Spring Boot: Utilized the Spring Boot framework to design, develop, and maintain the backend API of the Quality Management platform. Implemented robust and efficient solutions, ensuring smooth communication between the frontend and backend components.",
       "Developed and maintained the web application in Angular 6: Leveraged Angular 6 to build and maintain the web application interface for the Quality Management platform. Developed responsive and user-friendly features, enhancing the overall user experience and interface design."
-    ],
-    "kpis": []
-  },
-  {
-    "companyTitle": "Apps2You",
-    "companyImg": "/images/apps2you.png",
-    "companyURL": "https://www.apps2you.com/",
-    "title": "Android Developer",
-    "period": "August, 2016 - September 2016",
-    "type": "Internship",
-    "location": "Beirut, Lebanon",
-    "achievements": [
-      "Acquired a solid foundation in Android Development: Delved into the core concepts and principles essential to Android application development. Demonstrated a commitment to learning and mastering the intricacies of the Android ecosystem.",
-      "Gained expertise in Android Application Life Cycles: Immerse myself in understanding the intricate life cycles of Android applications. This encompassed comprehensive knowledge of the sequence of events and behaviors exhibited by applications throughout their existence, ensuring optimal performance and responsiveness.",
-      "Proficiently implemented various data persistence techniques: Demonstrated proficiency in diverse approaches to persisting data in Android applications. Acquired in-depth knowledge of the various mechanisms and frameworks available for efficient data storage and retrieval, resulting in robust and reliable applications."
     ],
     "kpis": []
   }
