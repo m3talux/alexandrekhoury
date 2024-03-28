@@ -12,7 +12,7 @@ export default function Quote() {
                 </svg>
 
                 <div className="relative z-10">
-                    <p className="text-xl text-[var(--text-color)] md:text-3xl md:leading-normal"><em>
+                    <p className="text-xl text-[var(--text-color)] md:text-2xl md:leading-normal"><em>
                         Character cannot be developed in ease and quiet. Only through experience of trial and suffering
                         can the soul be strengthened, ambition inspired, and success achieved.
                     </em></p>

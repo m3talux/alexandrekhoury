@@ -1,6 +1,5 @@
 'use client'
 
-import React, {useState} from "react";
 import experiences from "@/app/content/experiences.json"
 import Image from "next/image";
 
@@ -34,39 +33,60 @@ export default function Experiences() {
                                     </span>
                                         }
                                     </div>
-                                    {e.kpis.length > 0 &&
-                                        <div
-                                            className="mt-8 border-gray-200 border-[1px] w-[300px] rounded-xl px-8 py-4">
-                                            {
-                                                e.kpis.map((k, i) => (
-                                                    <div
-                                                        className={`${i < e.kpis.length - 1 ? 'mb-4' : 'mb-0'} flex flex-row items-center justify-between`}
-                                                        key={i}>
-                                                        <div className="flex flex-col justify-center items-start">
-                                                            <label>{k.title}</label>
-                                                            <p className="text-xs">{k.description}</p>
-                                                        </div>
-                                                        <h4 className="ml-4 text-3xl text-[var(--primary-color)]">{k.kpi}</h4>
-                                                    </div>
-                                                ))
-                                            }
-                                        </div>
-                                    }
-                                </div>
-                                <div
-                                    className={`${i % 2 != 0 ? 'xl:mr-32' : 'xl:ml-32'} xl:mt-0 mt-8 text-[var(--accent-color)] grow`}>
                                     {
-                                        e.achievements.map((a, i) => (
-                                                <p className={`${i < e.achievements.length - 1 ? 'mb-8' : 'mb-0'} text-sm xl:text-base`}
-                                                   key={i}>{a}</p>
-                                            )
-                                        )
+                                        e.kpis.length > 0 && <KpisContainer kpis={e.kpis}/>
                                     }
                                 </div>
+                                <ExperienceAchievements achievements={e.achievements} index={i}/>
                             </div>
                         ))
                 }
             </div>
         </section>
+    )
+}
+
+interface IKpisContainerProps {
+    kpis: IKpi[]
+}
+
+function KpisContainer({kpis}: IKpisContainerProps) {
+    return (
+        <div
+            className="mt-8 border-gray-200 border-[1px] w-[300px] rounded-xl px-8 py-4">
+            {
+                kpis.map((k, i) => (
+                    <div
+                        className={`${i < kpis.length - 1 ? 'mb-4' : 'mb-0'} flex flex-row items-center justify-between`}
+                        key={i}>
+                        <div className="flex flex-col justify-center items-start">
+                            <label>{k.title}</label>
+                            <p className="text-xs">{k.description}</p>
+                        </div>
+                        <h4 className="ml-4 text-3xl text-[var(--primary-color)]">{k.kpi}</h4>
+                    </div>
+                ))
+            }
+        </div>
+    )
+}
+
+interface IExperienceAchievementsProps {
+    achievements: string[]
+    index: number
+}
+
+function ExperienceAchievements({achievements, index}: IExperienceAchievementsProps) {
+    return (
+        <div
+            className={`${index % 2 != 0 ? 'xl:mr-32' : 'xl:ml-32'} xl:mt-0 mt-8 text-[var(--accent-color)] grow bg-gray-50 p-16 rounded-2xl shadow-lg shadow-gray-200`}>
+            {
+                achievements.map((a, i) => (
+                        <p className={`${i < achievements.length - 1 ? 'mb-8' : 'mb-0'} text-sm xl:text-base`}
+                           key={i}>{a}</p>
+                    )
+                )
+            }
+        </div>
     )
 }
