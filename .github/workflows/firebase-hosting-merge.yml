@@ -13,8 +13,6 @@ jobs:
       - uses: actions/checkout@v3
       - run: touch .env.local
       - run: echo 'NEXT_PUBLIC_GA_MEASUREMENT_ID="${{ secrets.GA_MEASUREMENT_ID }}"' > .env.local
-      - run: echo 'NEXT_SHARP_PATH="/tmp/node_modules/sharp"' >> .env.local
-      - run: npm i sharp
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
