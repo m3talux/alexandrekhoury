@@ -15,11 +15,6 @@ export default function Socials() {
                className="mr-4 hover:cursor-pointer">
                 <Image src="/svg/github.svg" alt="Github" height={iconSize} width={iconSize}/>
             </a>
-            <a target="_blank" href="https://twitter.com/metaluxx"
-               title="Twitter"
-               className="hover:cursor-pointer">
-                <Image src="/svg/twitter.svg" alt="Twitter" height={iconSize} width={iconSize}/>
-            </a>
         </div>
     )
 }

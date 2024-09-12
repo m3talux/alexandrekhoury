@@ -10,7 +10,7 @@ export default function Avatar() {
         <div
             className="bg-[var(--primary-color)] rounded-full w-36 md:w-60 md:h-60 flex justify-center items-center relative">
             <Image src={lightsOn ? '/svg/avatar.svg' : '/svg/avatar-dark.svg'} className="rounded-full" width={264}
-                   height={264}
+                   height={264} loading="eager"
                    alt="Alexandre El Khoury | Avatar"/>
             <Image onClick={() => setLightsOn(!lightsOn)} src={lightsOn ? '/svg/sun.svg' : '/svg/moon.svg'}
                    alt={lightsOn ? 'Sun' : 'Moon'} width={32}

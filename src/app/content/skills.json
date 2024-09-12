@@ -8,14 +8,6 @@
         "title": "Go"
       },
       {
-        "imageURL": "/svg/dart.svg",
-        "title": "Dart"
-      },
-      {
-        "imageURL": "/svg/java.svg",
-        "title": "Java"
-      },
-      {
         "imageURL": "/svg/javascript.svg",
         "title": "Javascript"
       },
@@ -38,24 +30,16 @@
         "title": "Gin"
       },
       {
-        "imageURL": "/svg/fiber.svg",
-        "title": "Fiber"
-      },
-      {
         "imageURL": "/svg/nodejs.svg",
         "title": "NodeJS"
       },
       {
-        "imageURL": "/svg/nestjs.svg",
-        "title": "NestJS"
+        "imageURL": "/svg/mongodb.svg",
+        "title": "MongoDB"
       },
       {
-        "imageURL": "/svg/spring.svg",
-        "title": "Spring Boot"
-      },
-      {
-        "imageURL": "/svg/django.svg",
-        "title": "Django"
+        "imageURL": "/svg/postgresql.svg",
+        "title": "PostgreSQL"
       }
     ]
   },
@@ -66,10 +50,6 @@
       {
         "imageURL": "/svg/flutter.svg",
         "title": "Flutter"
-      },
-      {
-        "imageURL": "/svg/next.svg",
-        "title": "NextJS"
       },
       {
         "imageURL": "/svg/react.svg",
@@ -86,24 +66,20 @@
     "imageURL": "/svg/devops.svg",
     "skills": [
       {
-        "imageURL": "/svg/firebase.svg",
-        "title": "Firebase"
-      },
-      {
         "imageURL": "/svg/docker.svg",
         "title": "Docker"
       },
       {
+        "imageURL": "/svg/kubernetes.svg",
+        "title": "Kubernetes"
+      },
+      {
+        "imageURL": "/svg/firebase.svg",
+        "title": "Firebase"
+      },
+      {
         "imageURL": "/svg/aws.svg",
         "title": "AWS"
-      },
-      {
-        "imageURL": "/svg/mongo.svg",
-        "title": "MongoDB"
-      },
-      {
-        "imageURL": "/svg/postgresql.svg",
-        "title": "PostgreSQL"
       }
     ]
   }

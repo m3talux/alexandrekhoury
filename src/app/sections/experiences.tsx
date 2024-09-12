@@ -19,7 +19,8 @@ export default function Experiences() {
                                         <Image className="object-center xl:w-[500px] w-[200px]" src={e.companyImg}
                                                alt={e.companyTitle}
                                                width={500}
-                                               height={100}/>
+                                               height={100}
+                                               loading="eager"/>
                                     </a>
                                     <h3 className="mt-8 font-bold text-center">{e.title}</h3>
                                     <div className="mt-2 flex flex-row items-center">

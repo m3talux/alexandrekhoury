@@ -13,13 +13,14 @@ export default function Quote() {
 
                 <div className="relative z-10">
                     <p className="text-xl text-[var(--text-color)] md:text-2xl md:leading-normal"><em>
-                        Character cannot be developed in ease and quiet. Only through experience of trial and suffering
-                        can the soul be strengthened, ambition inspired, and success achieved.
+                        The only way to do great work is to love what you do. If you haven&apos;t found it yet, keep
+                        looking.
+                        Don&apos;t settle.
                     </em></p>
                 </div>
 
                 <footer className="mt-6">
-                    <div className="text-base font-semibold text-[var(--text-color)]">Helen Keller</div>
+                    <div className="text-base font-semibold text-[var(--text-color)]">Steve Jobs</div>
                 </footer>
             </blockquote>
         </section>
