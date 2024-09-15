@@ -2,7 +2,6 @@ import './globals.css'
 import type {Metadata} from 'next'
 import {Jura} from 'next/font/google'
 import Script from "next/script";
-import person from "@/app/content/person-markup.json"
 
 const inter = Jura({weight: '500', subsets: ['latin']})
 
@@ -88,8 +87,6 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
                 gtag('config', '${GA_MEASUREMENT_ID}');
             `}
         </Script>
-        <Script key="structured-data" id="structured-data" type="application/ld+json"
-                dangerouslySetInnerHTML={{__html: JSON.stringify(person)}}/>
         </html>
     )
 }

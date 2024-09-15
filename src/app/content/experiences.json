@@ -8,11 +8,11 @@
     "type": "Full-Time",
     "location": "Paris, France",
     "achievements": [
-      "Developed and maintained internal libraries: Took ownership of crucial internal libraries including a RabbitMQ client, Cucumber testing in Go, and a module bootstraping tool. Ensured their stability, reliability, and availability for seamless integration across projects.",
-      "Created and managed multiple microservices in Go: Designed, implemented, and maintained various microservices, including APIs, tooling services, and Key Performance Indicators (KPIs) tracking. Leveraged Go's strengths to build efficient and scalable solutions.",
-      "Enhanced performance of a critical API: Identified performance bottlenecks in a critical API and successfully optimized its performance, resulting in a remarkable 70% improvement. This optimization positively impacted the overall system's responsiveness and user experience.",
-      "Revamped module architecture for scalability and maintainability: Recognizing the need for scalability and maintainability, I challenged and reevaluated the existing module architecture. Proposed and implemented improvements to ensure flexibility, modularity, and ease of future enhancements.",
-      "Provided critical analysis and benchmarking: Actively participated in technology discussions, challenging and questioning technological choices when necessary. Conducted in-depth benchmarks and analysis, presenting statistical data to support my recommendations for better technological selections."
+      "Built and managed various efficient microservices in Go, including APIs and KPI tracking.",
+      "Owned and maintained crucial internal libraries, ensuring seamless integration across projects.",
+      "Optimized a critical API, achieving a remarkable 70% performance improvement.",
+      "Provided critical analysis and benchmarking to support better technological decisions.",
+      "Mentored and empowered junior developers to rapidly grasp our internal stack and contribute effectively to projects."
     ],
     "kpis": [
       {
@@ -41,10 +41,11 @@
     "type": "Full-Time",
     "location": "Remote",
     "achievements": [
-      "Stack and Architecture decision making: Played an active role in the decision-making process for selecting appropriate technology stacks and defining the system architecture. Utilized my expertise to evaluate options and make informed decisions that aligned with project requirements and goals.",
-      "Championed the adoption of new frameworks and technologies: Introduced Flutter as a potential solution upon joining the team and successfully influenced its adoption as the primary framework. This decision positively impacted development efficiency, codebase maintainability, and cross-platform capabilities.",
-      "Developed full-stack web and mobile applications: Collaborated on the development of numerous web and mobile applications across diverse industries, including food, virtual reality (VR), education, and health. Contributed to the entire software development life cycle, from concept and design to implementation and deployment.",
-      "Assumed the role of Technical Lead in a VoIP mobile application: Led a team in the development of a VoIP mobile application, serving as a charity project dedicated to supporting the Lebanese Red Cross during the pandemic. Oversaw the technical aspects of the project, provided guidance to team members, and ensured the successful delivery of the application."
+      "Developed full-stack web and mobile apps across diverse industries, from concept to deployment.",
+      "Led a team as Technical Lead for a VoIP mobile app supporting the Lebanese Red Cross during the pandemic.",
+      "Influenced technology stack and system architecture decisions based on project requirements and goals.",
+      "Introduced and championed Flutter adoption, enhancing development efficiency and cross-platform capabilities.",
+      "Shared Flutter expertise with fellow developers, enabling them to overcome challenges and contribute effectively to project goals."
     ],
     "kpis": [
       {
@@ -73,9 +74,10 @@
     "type": "Contract",
     "location": "Beirut, Lebanon",
     "achievements": [
-      "Sole developer for the project: Acted as the sole developer on the team, working alongside three individuals responsible for the business side of the project. Successfully managed the entire software development process, taking ownership of both the backend and frontend components.",
-      "Developed and maintained the API with Spring Boot: Utilized the Spring Boot framework to design, develop, and maintain the backend API of the Quality Management platform. Implemented robust and efficient solutions, ensuring smooth communication between the frontend and backend components.",
-      "Developed and maintained the web application in Angular 6: Leveraged Angular 6 to build and maintain the web application interface for the Quality Management platform. Developed responsive and user-friendly features, enhancing the overall user experience and interface design."
+      "Sole developer, managing the entire software development process for a Quality Management platform.",
+      "Designed and maintained the backend API using Spring Boot, ensuring smooth communication with the frontend.",
+      "Developed and maintained the web application in Angular 6, enhancing user experience and interface design.",
+      "Actively participated in business meetings and client calls to understand technical challenges."
     ],
     "kpis": []
   }

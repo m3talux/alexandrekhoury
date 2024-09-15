@@ -16,7 +16,7 @@ export default function Experiences() {
                                 key={i}>
                                 <div className="flex flex-col items-center xl:w-[800px]">
                                     <a href={e.companyURL} target="_blank">
-                                        <Image className="object-center xl:w-[500px] w-[200px]" src={e.companyImg}
+                                        <Image className="object-center xl:w-[400px] max-w-[400px] w-[200px]" src={e.companyImg}
                                                alt={e.companyTitle}
                                                width={500}
                                                height={100}
@@ -79,15 +79,15 @@ interface IExperienceAchievementsProps {
 
 function ExperienceAchievements({achievements, index}: IExperienceAchievementsProps) {
     return (
-        <div
-            className={`${index % 2 != 0 ? 'xl:mr-32' : 'xl:ml-32'} xl:mt-0 mt-8 text-[var(--accent-color)] grow bg-gray-50 p-16 rounded-2xl shadow-lg shadow-gray-200`}>
+        <ul
+            className={`${index % 2 != 0 ? 'xl:mr-32' : 'xl:ml-32'} xl:mt-0 mt-8 text-[var(--accent-color)] grow bg-gray-50 p-12 xl:p-16 rounded-2xl shadow-lg shadow-gray-200 list-disc`}>
             {
                 achievements.map((a, i) => (
-                        <p className={`${i < achievements.length - 1 ? 'mb-8' : 'mb-0'} text-sm xl:text-base`}
-                           key={i}>{a}</p>
+                        <li className={`${i < achievements.length - 1 ? 'mb-4' : 'mb-0'} text-sm xl:text-base`}
+                            key={i}>{a}</li>
                     )
                 )
             }
-        </div>
+        </ul>
     )
 }
