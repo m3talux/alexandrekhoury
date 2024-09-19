@@ -10,7 +10,7 @@
       "/svg/flutter.svg",
       "/svg/go.svg",
       "/svg/gin.svg",
-      "/svg/mongo-icon.svg",
+      "/svg/mongodb.svg",
       "/svg/postgresql.svg"
     ],
     "summary": "I began my journey with RPF as a part-time NFT project researcher. Eventually, I assumed the role of the group's technical lead, focusing on enhancing the NFT project vetting system to protect users from scams. This role allowed me to explore various Web3 technologies and utilize Twitter's API to gather information on flagged accounts."
@@ -67,7 +67,7 @@
       "/svg/flutter.svg",
       "/svg/go.svg",
       "/svg/gin.svg",
-      "/svg/mongo-icon.svg",
+      "/svg/mongodb.svg",
       "/svg/firebase.svg"
     ],
     "summary": "I played a key role in designing and developing APIs, microservices, and intricate authentication systems. I was also actively involved in shaping the concept of both the mobile and web applications."
