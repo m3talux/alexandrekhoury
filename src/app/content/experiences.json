@@ -1,9 +1,9 @@
 [
   {
-    "companyTitle": "Kardinal",
+    "companyTitle": "Kardinal AI",
     "companyImg": "/svg/kardinal.svg",
     "companyURL": "https://kardinal.ai/",
-    "title": "Golang Backend Engineer",
+    "title": "Senior Backend Engineer",
     "period": "March, 2021 - Current",
     "type": "Full-Time",
     "location": "Paris, France",
@@ -39,7 +39,7 @@
     "title": "Full Stack Software Engineer",
     "period": "May, 2019 - April 2021",
     "type": "Full-Time",
-    "location": "Remote",
+    "location": "Remote, US",
     "achievements": [
       "Developed full-stack web and mobile apps across diverse industries, from concept to deployment.",
       "Led a team as Technical Lead for a VoIP mobile app supporting the Lebanese Red Cross during the pandemic.",
@@ -69,7 +69,7 @@
     "companyTitle": "InnTrend",
     "companyImg": "/images/inntrend.jpg",
     "companyURL": "https://www.facebook.com/inntrends/",
-    "title": "Full Stack Software Developer",
+    "title": "Founding Software Engineer",
     "period": "January, 2017 - January 2019",
     "type": "Contract",
     "location": "Beirut, Lebanon",

@@ -11,7 +11,7 @@ import Projects from "@/app/sections/projects";
 export default function Home() {
     return (
         <main className="overflow-hidden">
-            <h1 className="hidden">Alexandre El Khoury | Software Engineer</h1>
+            <h1 className="hidden">Alexandre El Khoury | Sr. Software Engineer</h1>
             <Nav/>
             <Main/>
             <About/>

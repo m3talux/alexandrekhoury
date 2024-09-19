@@ -7,7 +7,7 @@ const inter = Jura({weight: '500', subsets: ['latin']})
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://alexandrekhoury.com'),
-    title: 'Alexandre El Khoury | Software Engineer',
+    title: 'Alexandre El Khoury | Sr. Software Engineer',
     description: 'Experienced software engineer | Back-end, cross-platform & front-end dev | Passionate, adaptable & highly productive with clean code.',
     themeColor: '#028ac7',
     manifest: '/site.webmanifest',
@@ -45,23 +45,23 @@ export const metadata: Metadata = {
         type: 'website',
         url: '/',
         locale: 'en_US',
-        title: 'Alexandre El Khoury | Software Engineer',
-        description: 'Experienced software engineer with over 5 years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
+        title: 'Alexandre El Khoury | Sr. Software Engineer',
+        description: 'Experienced software engineer with over 8 years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
         images: [
             {
                 url: '/images/og-image.png',
-                alt: 'Alexandre El Khoury | Software Engineer',
+                alt: 'Alexandre El Khoury | Sr. Software Engineer',
 
             },
         ],
     },
     twitter: {
         title: 'Alexandre El Khoury | Software Engineer',
-        description: 'Experienced software engineer with over 5 years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
+        description: 'Experienced software engineer with over 8 years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
         images: [
             {
                 url: '/images/og-image.png',
-                alt: 'Alexandre El Khoury | Software Engineer',
+                alt: 'Alexandre El Khoury | Sr. Software Engineer',
             },
         ],
     },
