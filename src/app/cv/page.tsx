@@ -12,7 +12,7 @@ const raleway = Raleway({weight: '500', subsets: ['latin']})
 export default function Home() {
     return (
         <main className={raleway.className}>
-            <div className="p-4 w-[794px] h-[1123px]">
+            <div className="p-8 w-[794px] h-[1123px]">
                 <h1 className="hidden">Alexandre El Khoury | Sr. Software Engineer</h1>
                 <Header/>
                 <div className="mt-4"/>
