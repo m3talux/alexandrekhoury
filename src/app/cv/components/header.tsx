@@ -20,7 +20,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            <div className="bg-blue-500 rounded-full w-[120px] h-[120px]"/>
+            <Image src="/images/pp.png" alt="pp" width={120} height={120}/>
         </div>
     )
 }
