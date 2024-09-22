@@ -13,9 +13,10 @@ export default function CvExperience() {
                                 <h3 className="text-[var(--text-color)] text-md tracking-wider">{exp.title}</h3>
                                 <h4 className="text-blue-500 text-sm font-bold tracking-wider">{exp.companyTitle}</h4>
                                 <p className="text-[var(--text-color)] text-xs">{exp.location} | {exp.period}</p>
-                                <ul className="list-disc list-inside ml-2 mt-2">
+                                <ul className="list-disc ml-6 mt-2 list-outside">
                                     {exp.achievements.map((point, pIndex) => (
-                                        <li key={pIndex} className="text-[var(--text-color)] text-xs">{point}</li>
+                                        <li key={pIndex}
+                                            className="text-[var(--text-color)] text-xs mt-1">{point}</li>
                                     ))}
                                 </ul>
                             </div>
