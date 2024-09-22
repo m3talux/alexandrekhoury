@@ -74,10 +74,10 @@
     "type": "Contract",
     "location": "Beirut, Lebanon",
     "achievements": [
-      "Sole developer, managing the entire software development process for a Quality Management platform.",
+      "Managed the entire software development process for a Quality Management platform.",
       "Designed and maintained the backend API using Spring Boot, ensuring smooth communication with the frontend.",
       "Developed and maintained the web application in Angular 6, enhancing user experience and interface design.",
-      "Actively participated in business meetings and client calls to understand technical challenges."
+      "Participated in business meetings and client calls to understand technical challenges."
     ],
     "kpis": []
   }
