@@ -16,7 +16,7 @@ export default function CvExperience() {
                                 <ul className="list-disc ml-6 mt-2 list-outside">
                                     {exp.achievements.map((point, pIndex) => (
                                         <li key={pIndex}
-                                            className="text-[var(--text-color)] text-xs mt-1">{point}</li>
+                                            className="text-[var(--text-color)] text-xs mt-1 text-justify">{point}</li>
                                     ))}
                                 </ul>
                             </div>
