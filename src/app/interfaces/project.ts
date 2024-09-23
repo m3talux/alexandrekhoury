@@ -6,4 +6,5 @@ interface IProject {
     position: string
     technologies: string[]
     summary: string
+    archived: boolean
 }
