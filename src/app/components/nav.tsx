@@ -10,7 +10,7 @@ export default function Nav() {
             <div className="flex justify-center items-center">
                 <a href="#contact" className="text-[var(--text-color)] mr-8 hover:cursor-pointer"
                    title="Let's Chat!">Contact</a>
-                <a href="/files/alexandre_el_khoury_cv_en.pdf" target="_blank" title="Download My CV"
+                <a href="/files/alexandre_el_khoury_cv.pdf" target="_blank" title="Download My CV"
                    className="border-[var(--primary-color)] hover:bg-[var(--primary-color)] border-2 text-[var(--primary-color)] hover:text-white transition delay-100 ease-in-out px-4 py-2 hover:cursor-pointer rounded-full">Download
                     CV</a>
             </div>
