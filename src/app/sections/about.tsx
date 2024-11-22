@@ -15,7 +15,7 @@ export function About() {
         <section id="about"
                  className="bg-[var(--primary-color)] flex flex-col lg:flex-row items-center content-center p-8 md:p-16">
             <Image src="/svg/programmer.svg" className="max-w-xl w-1/2 lg:w-1/3" alt="Alexandre El Khoury | Software"
-                   width={786} height={572} loading="eager"/>
+                   width={786} height={572}/>
             <p className="!leading-8 text-white text-center mt-8 lg:mt-0 lg:text-left lg:ml-16 text-md sm:text-lg md:text-xl">
                 I&apos;m a highly motivated and results-oriented software engineer with {experienceYears}+ years of
                 experience crafting

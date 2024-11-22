@@ -14,7 +14,7 @@ export default function SkillCategory(skillCategory: ISkillCategory) {
                     <div key={skill.title}
                          className={`flex flex-row justify-center xl:justify-start items-center ${index > 0 ? 'mt-6' : ''}`}>
                         <Image src={skill.imageURL} className="w-[16px] md:w-[20px]" width={20} height={20}
-                               alt={skill.title} loading="eager"/>
+                               alt={skill.title}/>
                         <label className="ml-4">{skill.title}</label>
                     </div>
                 ))}

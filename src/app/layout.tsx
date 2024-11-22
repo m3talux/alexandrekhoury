@@ -2,14 +2,14 @@ import './globals.css'
 import type {Metadata} from 'next'
 import {Jura} from 'next/font/google'
 import Script from "next/script";
+import {SpeedInsights} from "@vercel/speed-insights/next"
 
-const inter = Jura({weight: '500', subsets: ['latin']})
+const jura = Jura({weight: '500', subsets: ['latin']})
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://alexandrekhoury.com'),
     title: 'Alexandre El Khoury | Sr. Software Engineer',
     description: 'Experienced software engineer | Back-end, cross-platform & front-end dev | Passionate, adaptable & highly productive with clean code.',
-    themeColor: '#028ac7',
     manifest: '/site.webmanifest',
     icons: [
         {
@@ -43,8 +43,9 @@ export const metadata: Metadata = {
     ],
     openGraph: {
         type: 'website',
-        url: '/',
+        url: 'https://alexandrekhoury.com',
         locale: 'en_US',
+        siteName: 'Alexandre El Khoury',
         title: 'Alexandre El Khoury | Sr. Software Engineer',
         description: 'Experienced software engineer with over 8 years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
         images: [
@@ -54,6 +55,17 @@ export const metadata: Metadata = {
 
             },
         ],
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            'max-video-preview': -1,
+            'max-image-preview': 'large',
+            'max-snippet': -1,
+        }
     },
     twitter: {
         title: 'Alexandre El Khoury | Software Engineer',
@@ -77,7 +89,8 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
 
     return (
         <html lang="en">
-        <body className={inter.className}>{children}</body>
+        <SpeedInsights/>
+        <body className={jura.className}>{children}</body>
         <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="afterInteractive"/>
         <Script id="google-analytics" strategy="afterInteractive">
             {`

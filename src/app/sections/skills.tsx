@@ -1,4 +1,4 @@
-import skills from "@/app/content/skills.json"
+import skills from "@/data/skills.json"
 import SkillCategory from "@/app/components/skill-category";
 import Image from "next/image";
 

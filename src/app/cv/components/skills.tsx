@@ -1,5 +1,5 @@
 import Title from "@/app/cv/components/title";
-import skills from "@/app/content/skills.json"
+import skills from "@/data/skills.json"
 
 export default function CvSkills() {
     return (

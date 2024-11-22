@@ -1,6 +1,6 @@
 'use client'
 
-import experiences from "@/app/content/experiences.json"
+import experiences from "@/data/experiences.json"
 import Image from "next/image";
 
 export default function Experiences() {
@@ -16,11 +16,11 @@ export default function Experiences() {
                                 key={i}>
                                 <div className="flex flex-col items-center xl:w-[800px]">
                                     <a href={e.companyURL} target="_blank">
-                                        <Image className="object-center xl:w-[400px] max-w-[400px] w-[200px]" src={e.companyImg}
+                                        <Image className="object-center xl:w-[400px] max-w-[400px] w-[200px]"
+                                               src={e.companyImg}
                                                alt={e.companyTitle}
                                                width={500}
-                                               height={100}
-                                               loading="eager"/>
+                                               height={100}/>
                                     </a>
                                     <h3 className="mt-8 font-bold text-center">{e.title}</h3>
                                     <div className="mt-2 flex flex-row items-center">

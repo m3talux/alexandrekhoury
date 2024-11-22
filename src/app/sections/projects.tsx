@@ -1,6 +1,6 @@
 'use client'
 
-import projects from "@/app/content/projects.json"
+import projects from "@/data/projects.json"
 import Image from "next/image";
 
 export default function Projects() {
@@ -18,7 +18,7 @@ export default function Projects() {
                         >
                             <span/>
                             <Image width={project.imageWidth} height="50" src={project.image} alt={project.name}
-                                   className="h-auto" loading="eager"/>
+                                   className="h-auto"/>
                             <div className="mt-2 flex flex-col items-center">
                                 <h3 className="text-md font-bold">{project.position}</h3>
                                 <div className="mt-2 inline-flex flex-row flex-wrap gap-2">

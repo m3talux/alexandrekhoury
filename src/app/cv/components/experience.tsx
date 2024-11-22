@@ -1,5 +1,5 @@
 import Title from "@/app/cv/components/title";
-import experiences from "@/app/content/experiences.json";
+import experiences from "@/data/experiences.json";
 
 export default function CvExperience() {
     return (
