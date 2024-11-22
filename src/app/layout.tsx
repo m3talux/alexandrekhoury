@@ -85,19 +85,17 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({children}: { children: React.ReactNode }) {
-    const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
-
     return (
         <html lang="en">
         <SpeedInsights/>
         <body className={jura.className}>{children}</body>
-        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="afterInteractive"/>
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=G-29C9W2YKSB`} strategy="afterInteractive"/>
         <Script id="google-analytics" strategy="afterInteractive">
             {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){window.dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', '${GA_MEASUREMENT_ID}');
+                gtag('config', 'G-29C9W2YKSB');
             `}
         </Script>
         </html>
