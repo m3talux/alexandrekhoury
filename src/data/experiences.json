@@ -1,10 +1,27 @@
 [
   {
+    "companyTitle": "Weaviate",
+    "companyImg": "/svg/weaviate.svg",
+    "companyURL": "https://weaviate.io/",
+    "title": "Senior Software Engineer",
+    "period": "April 2025 - Current",
+    "type": "Full-Time",
+    "location": "Paris, France",
+    "achievements": [
+      "Own backend features end-to-end, collaborating across teams for alignment and transparency.",
+      "Contribute to incident response, ensuring reliability and clear communication.",
+      "Maintain database backups and alerting to ensure cluster health.",
+      "Build frontend integrations that expose backend features to cloud users.",
+      "Promote AI-powered tools and workflows to boost team efficiency."
+    ],
+    "kpis": []
+  },
+  {
     "companyTitle": "Kardinal AI",
     "companyImg": "/svg/kardinal.svg",
     "companyURL": "https://kardinal.ai/",
     "title": "Senior Backend Engineer",
-    "period": "March 2021 - Current",
+    "period": "March 2021 - March 2025",
     "type": "Full-Time",
     "location": "Paris, France",
     "achievements": [
