@@ -1,10 +1,11 @@
 import './globals.css'
 import type {Metadata} from 'next'
-import {Jura} from 'next/font/google'
+import {Inter} from 'next/font/google'
 import Script from "next/script";
 import {SpeedInsights} from "@vercel/speed-insights/next"
+import {ThemeProvider} from "@/app/components/theme-provider"
 
-const jura = Jura({weight: '500', subsets: ['latin']})
+const inter = Inter({subsets: ['latin'], variable: '--font-inter'})
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://alexandrekhoury.com'),
@@ -86,9 +87,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: { children: React.ReactNode }) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
+        <body className={inter.className}>
+        <ThemeProvider>
+            {children}
+        </ThemeProvider>
         <SpeedInsights/>
-        <body className={jura.className}>{children}</body>
+        </body>
         <Script src={`https://www.googletagmanager.com/gtag/js?id=G-29C9W2YKSB`} strategy="afterInteractive"/>
         <Script id="google-analytics" strategy="afterInteractive">
             {`

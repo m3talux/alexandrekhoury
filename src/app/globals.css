@@ -2,46 +2,91 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --bg-color: #fff;
-  --primary-color: #028ac7;
-  --accent-color: #082F49FF;
-  --text-color: #374151FF;
-}
-
-::-webkit-scrollbar{
-  width: 10px;
-}
-
-::-webkit-scrollbar-track-piece{
-  background-color: #FFF;
-}
-
-::-webkit-scrollbar-thumb{
-  background-color: #CBCBCB;
-  outline: 2px solid #FFF;
-  outline-offset: -2px;
-  border: .1px solid #B7B7B7;
-}
-
-::-webkit-scrollbar-thumb:hover{
-  background-color: #909090;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    /*--bg-color: #35363a;*/
-    /*--primary-color: #202124;*/
-    /*--text-color: #FFF;*/
+    --background: 255 255 255;
+    --foreground: 15 23 42;
+    --muted: 241 245 249;
+    --muted-foreground: 100 116 139;
+    --border: 226 232 240;
+    --accent: 59 130 246;
+    --accent-foreground: 255 255 255;
+  }
+
+  .dark {
+    --background: 15 23 42;
+    --foreground: 248 250 252;
+    --muted: 30 41 59;
+    --muted-foreground: 148 163 184;
+    --border: 51 65 85;
+    --accent: 96 165 250;
+    --accent-foreground: 15 23 42;
   }
 }
 
-html {
-  scroll-behavior: smooth;
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    overflow-x: hidden;
+  }
 }
 
-body {
-  background-color: var(--bg-color);
-  color: rgb(var(--text-color));
-  overflow-x: hidden;
+@layer utilities {
+  .bg-background {
+    background-color: rgb(var(--background));
+  }
+  .text-foreground {
+    color: rgb(var(--foreground));
+  }
+  .bg-muted {
+    background-color: rgb(var(--muted));
+  }
+  .text-muted-foreground {
+    color: rgb(var(--muted-foreground));
+  }
+  .border-border {
+    border-color: rgb(var(--border));
+  }
+  .bg-accent {
+    background-color: rgb(var(--accent));
+  }
+  .text-accent {
+    color: rgb(var(--accent));
+  }
+  .text-accent-foreground {
+    color: rgb(var(--accent-foreground));
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--muted-foreground) / 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(var(--muted-foreground) / 0.5);
+}
+
+.dark ::-webkit-scrollbar-track {
+  background-color: rgb(var(--muted));
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--muted-foreground) / 0.3);
 }

@@ -1,0 +1,91 @@
+{
+  "personal": {
+    "name": "Alexandre El Khoury",
+    "title": "Senior Software Engineer",
+    "email": "alexandre.elkhoury@outlook.com",
+    "phone": "+33 7 86 23 50 38",
+    "location": "Paris, France",
+    "linkedin": "linkedin.com/in/alexandre-el-khoury",
+    "github": "github.com/m3talux",
+    "website": "alexandrekhoury.com"
+  },
+  "summary": "Results-driven Senior Software Engineer with 8+ years of experience building robust, scalable backend systems and full-stack applications. Expert in Go, TypeScript, and cloud infrastructure. Proven track record of optimizing critical APIs (70% performance improvement), leading cross-functional teams, and driving AI-powered developer workflows. Currently at Weaviate, delivering resilient cloud services and end-to-end feature development.",
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Weaviate",
+      "location": "Paris, France",
+      "period": "Apr 2025 - Present",
+      "achievements": [
+        "Own backend features end-to-end, collaborating across teams for alignment and delivery",
+        "Lead incident response and maintain database backup reliability for cloud infrastructure",
+        "Build frontend integrations exposing backend features to cloud users",
+        "Drive adoption of AI-powered tools and workflows to boost team productivity"
+      ]
+    },
+    {
+      "title": "Senior Backend Engineer",
+      "company": "Kardinal AI",
+      "location": "Paris, France",
+      "period": "Mar 2021 - Mar 2025",
+      "achievements": [
+        "Built and maintained 12+ microservices in Go, including APIs and KPI tracking systems",
+        "Owned 7 critical internal libraries ensuring seamless integration across projects",
+        "Optimized critical API achieving 70% performance improvement",
+        "Mentored junior developers, accelerating their onboarding and contribution"
+      ]
+    },
+    {
+      "title": "Full-Stack Software Engineer",
+      "company": "Polar Stork",
+      "location": "Remote, US",
+      "period": "May 2019 - Apr 2021",
+      "achievements": [
+        "Developed 7+ full-stack web and mobile apps across diverse industries",
+        "Led technical development of VoIP app supporting Lebanese Red Cross during pandemic",
+        "Championed Flutter adoption, improving cross-platform development efficiency"
+      ]
+    },
+    {
+      "title": "Founding Software Engineer",
+      "company": "InnTrend",
+      "location": "Beirut, Lebanon",
+      "period": "Jan 2017 - Jan 2019",
+      "achievements": [
+        "Built end-to-end Quality Management platform using Spring Boot and Angular",
+        "Designed and maintained backend API and web application architecture"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["Go", "TypeScript", "JavaScript", "Python"],
+    "backend": ["Gin", "Node.js", "NestJS", "REST APIs", "gRPC"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis"],
+    "frontend": ["React", "Next.js", "Flutter", "Angular"],
+    "devops": ["Docker", "Kubernetes", "AWS", "GCP", "CI/CD"],
+    "tools": ["Git", "GitHub Actions", "Terraform", "Datadog"]
+  },
+  "education": {
+    "degree": "Computer and Communications Engineering",
+    "institution": "Saint Joseph University (U.S.J.)",
+    "location": "Beirut, Lebanon",
+    "period": "2015 - 2018"
+  },
+  "languages": [
+    {"name": "French", "level": "Native"},
+    {"name": "English", "level": "Fluent"},
+    {"name": "Arabic", "level": "Conversational"}
+  ],
+  "projects": [
+    {
+      "name": "Jointly",
+      "description": "Joint finance app for Lebanon",
+      "role": "Founder & Developer"
+    },
+    {
+      "name": "WeProject",
+      "description": "Wedding planning SaaS platform",
+      "role": "Founder & Developer"
+    }
+  ]
+}
