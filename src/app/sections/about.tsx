@@ -8,7 +8,7 @@ export function About() {
   const experienceInMilliseconds = currentDate - january2017;
   const millisecondsInYear = 1000 * 60 * 60 * 24 * 365.25;
 
-  const experienceYears = Math.round(experienceInMilliseconds / millisecondsInYear);
+  const experienceYears = Math.ceil(experienceInMilliseconds / millisecondsInYear);
 
 
   return (

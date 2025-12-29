@@ -44,7 +44,7 @@ export default function Home() {
                                     Hi, I&apos;m Alexandre
                                 </h1>
                                 <p className="mt-6 text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                                    I build robust, scalable backend systems and full-stack applications. With 8+ years of experience,
+                                    I build robust, scalable backend systems and full-stack applications. With 9 years of experience,
                                     I specialize in Go, TypeScript, and cloud infrastructure—delivering performant solutions that scale.
                                 </p>
                                 <div className="mt-8 flex flex-wrap gap-4">

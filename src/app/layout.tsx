@@ -13,7 +13,7 @@ export const metadata: Metadata = {
         default: 'Alexandre El Khoury | Senior Software Engineer',
         template: '%s | Alexandre El Khoury'
     },
-    description: 'Senior Software Engineer with 8+ years of experience building scalable backend systems. Expert in Go, TypeScript, and cloud infrastructure. Currently at Weaviate.',
+    description: 'Senior Software Engineer with 9 years of experience building scalable backend systems. Expert in Go, TypeScript, and cloud infrastructure. Currently at Weaviate.',
     keywords: ['Software Engineer', 'Backend Developer', 'Go', 'TypeScript', 'Full Stack', 'Cloud Infrastructure', 'Paris', 'France'],
     manifest: '/site.webmanifest',
     icons: [
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
         locale: 'en_US',
         siteName: 'Alexandre El Khoury',
         title: 'Alexandre El Khoury | Senior Software Engineer',
-        description: 'Senior Software Engineer with 8+ years of experience building scalable backend systems. Expert in Go, TypeScript, and cloud infrastructure. Currently at Weaviate.',
+        description: 'Senior Software Engineer with 9 years of experience building scalable backend systems. Expert in Go, TypeScript, and cloud infrastructure. Currently at Weaviate.',
         images: [
             {
                 url: '/images/og-image.png',
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'Alexandre El Khoury | Senior Software Engineer',
-        description: 'Senior Software Engineer with 8+ years of experience building scalable backend systems. Expert in Go, TypeScript, and cloud infrastructure.',
+        description: 'Senior Software Engineer with 9 years of experience building scalable backend systems. Expert in Go, TypeScript, and cloud infrastructure.',
         images: [
             {
                 url: '/images/og-image.png',
