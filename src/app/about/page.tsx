@@ -22,10 +22,15 @@ export default function AboutPage() {
                         <div className="grid lg:grid-cols-3 gap-12">
                             <div className="lg:col-span-1">
                                 <div className="sticky top-24">
-                                    <div className="aspect-square rounded-2xl bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center mb-6">
-                                        <div className="w-32 h-32 rounded-full bg-muted border-4 border-background shadow-lg flex items-center justify-center">
-                                            <span className="text-4xl font-bold text-accent">AK</span>
-                                        </div>
+                                    <div className="aspect-square rounded-2xl overflow-hidden mb-6">
+                                        <Image
+                                            src="/images/profile.jpeg"
+                                            alt="Alexandre El Khoury"
+                                            width={400}
+                                            height={400}
+                                            className="w-full h-full object-cover"
+                                            priority
+                                        />
                                     </div>
                                     <h1 className="text-2xl font-bold text-foreground">Alexandre El Khoury</h1>
                                     <p className="text-accent font-medium mt-1">Senior Software Engineer</p>

@@ -3,6 +3,7 @@ import Footer from "@/app/sections/footer";
 import projects from "@/data/projects.json";
 import Image from "next/image";
 import type {Metadata} from "next";
+import {JointlyPreview, WeProjectPreview} from "@/app/components/project-previews";
 
 export const metadata: Metadata = {
     title: 'Projects | Alexandre El Khoury',
@@ -12,18 +13,18 @@ export const metadata: Metadata = {
 const featuredProjects = [
     {
         name: "Jointly",
-        description: "A joint finance app designed specifically for Lebanon, helping users manage shared finances with ease. Built to address the unique financial challenges faced by Lebanese users, Jointly simplifies expense tracking, bill splitting, and financial collaboration between partners, roommates, or family members.",
+        description: "Multi-currency finance app for couples in Lebanon. Track expenses across USD, EUR, LBP, and AED, manage joint accounts, get real-time financial health insights, and build wealth together. Features smart categorization, recurring transactions, and data export.",
         url: "https://jointly-app.com",
         role: "Founder & Lead Developer",
-        tags: ["React Native", "Node.js", "PostgreSQL", "Finance", "Mobile App"],
+        tags: ["Next.js", "React", "PostgreSQL", "Finance", "PWA"],
         featured: true,
     },
     {
         name: "WeProject",
-        description: "A comprehensive wedding planning manager for couples to organize and manage their perfect day. From guest lists and seating arrangements to vendor management and budget tracking, WeProject provides all the tools couples need to plan their wedding stress-free.",
-        url: "https://app.theweproject.com",
+        description: "Wedding planning SaaS platform for couples. Manage guest lists with RSVP tracking, create seating arrangements with drag-and-drop, track budgets and expenses, organize to-do lists with timelines, and collaborate with your partner in real-time.",
+        url: "https://app.theweproject.co",
         role: "Founder & Lead Developer",
-        tags: ["Next.js", "TypeScript", "PostgreSQL", "SaaS", "Wedding Planning"],
+        tags: ["Next.js", "TypeScript", "PostgreSQL", "SaaS", "MobX"],
         featured: true,
     },
 ]
@@ -50,42 +51,70 @@ export default function ProjectsPage() {
 
                         <div className="mb-20">
                             <h2 className="text-sm font-medium text-accent uppercase tracking-wider mb-8">Featured Projects</h2>
-                            <div className="grid lg:grid-cols-2 gap-8">
-                                {featuredProjects.map((project) => (
-                                    <a
-                                        key={project.name}
-                                        href={project.url}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="group block p-8 rounded-2xl bg-muted hover:shadow-xl transition-all duration-300 border border-transparent hover:border-accent/30"
-                                    >
-                                        <div className="flex items-start justify-between mb-4">
-                                            <div>
-                                                <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-accent/10 text-accent mb-3">
-                                                    Featured
-                                                </span>
-                                                <h3 className="text-2xl font-bold text-foreground group-hover:text-accent transition-colors">
-                                                    {project.name}
-                                                </h3>
+                            <div className="space-y-12">
+                                <a
+                                    href="https://jointly-app.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="group block rounded-2xl bg-muted hover:shadow-xl transition-all duration-300 border border-transparent hover:border-accent/30 overflow-hidden"
+                                >
+                                    <div className="grid lg:grid-cols-2">
+                                        <div className="p-8">
+                                            <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-emerald-500/10 text-emerald-500 mb-3">
+                                                Finance App
+                                            </span>
+                                            <h3 className="text-2xl font-bold text-foreground group-hover:text-accent transition-colors mb-4">
+                                                Jointly
+                                            </h3>
+                                            <p className="text-muted-foreground mb-4 leading-relaxed">
+                                                Multi-currency finance app for couples in Lebanon. Track expenses across USD, EUR, LBP, and AED, manage joint accounts, get real-time financial health insights, and build wealth together.
+                                            </p>
+                                            <p className="text-sm text-accent font-medium mb-4">Founder & Lead Developer</p>
+                                            <div className="flex flex-wrap gap-2">
+                                                {["Go", "MongoDB", "Next.js", "GCP"].map((tag) => (
+                                                    <span key={tag} className="px-3 py-1 text-xs font-medium rounded-full bg-background text-muted-foreground">
+                                                        {tag}
+                                                    </span>
+                                                ))}
                                             </div>
-                                            <svg className="w-6 h-6 text-muted-foreground group-hover:text-accent transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-                                            </svg>
                                         </div>
-                                        <p className="text-muted-foreground mb-4 leading-relaxed">{project.description}</p>
-                                        <p className="text-sm text-accent font-medium mb-4">{project.role}</p>
-                                        <div className="flex flex-wrap gap-2">
-                                            {project.tags.map((tag) => (
-                                                <span
-                                                    key={tag}
-                                                    className="px-3 py-1 text-xs font-medium rounded-full bg-background text-muted-foreground"
-                                                >
-                                                    {tag}
-                                                </span>
-                                            ))}
+                                        <div className="p-6 bg-gradient-to-br from-emerald-950/50 to-background flex items-center justify-center">
+                                            <JointlyPreview />
                                         </div>
-                                    </a>
-                                ))}
+                                    </div>
+                                </a>
+
+                                <a
+                                    href="https://app.theweproject.co"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="group block rounded-2xl bg-muted hover:shadow-xl transition-all duration-300 border border-transparent hover:border-accent/30 overflow-hidden"
+                                >
+                                    <div className="grid lg:grid-cols-2">
+                                        <div className="p-8 lg:order-2">
+                                            <span className="inline-block px-3 py-1 text-xs font-medium rounded-full bg-rose-500/10 text-rose-500 mb-3">
+                                                Wedding Planning SaaS
+                                            </span>
+                                            <h3 className="text-2xl font-bold text-foreground group-hover:text-accent transition-colors mb-4">
+                                                WeProject
+                                            </h3>
+                                            <p className="text-muted-foreground mb-4 leading-relaxed">
+                                                Wedding planning platform for couples. Manage guest lists with RSVP tracking, create seating arrangements with drag-and-drop, track budgets, and collaborate with your partner in real-time.
+                                            </p>
+                                            <p className="text-sm text-accent font-medium mb-4">Founder & Lead Developer</p>
+                                            <div className="flex flex-wrap gap-2">
+                                                {["Go", "MongoDB", "Next.js", "GCP"].map((tag) => (
+                                                    <span key={tag} className="px-3 py-1 text-xs font-medium rounded-full bg-background text-muted-foreground">
+                                                        {tag}
+                                                    </span>
+                                                ))}
+                                            </div>
+                                        </div>
+                                        <div className="p-6 bg-gradient-to-br from-rose-950/50 to-background flex items-center justify-center lg:order-1">
+                                            <WeProjectPreview />
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
 

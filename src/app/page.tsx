@@ -6,18 +6,28 @@ import Image from "next/image";
 const featuredProjects = [
     {
         name: "Jointly",
-        description: "A joint finance app designed for Lebanon, helping users manage shared finances with ease.",
+        description: "Multi-currency finance app for couples in Lebanon. Track expenses, manage joint accounts, and get real-time insights with support for USD, EUR, LBP, and AED.",
         url: "https://jointly-app.com",
         role: "Founder & Developer",
-        tags: ["Finance", "Mobile App", "Lebanon"],
+        tags: ["Go", "MongoDB", "Next.js"],
     },
     {
         name: "WeProject",
-        description: "A comprehensive wedding planning manager for couples to organize and manage their perfect day.",
-        url: "https://app.theweproject.com",
+        description: "Wedding planning SaaS platform. Manage guests, budgets, seating arrangements, and to-do lists all in one place. Built for couples planning their perfect day.",
+        url: "https://app.theweproject.co",
         role: "Founder & Developer",
-        tags: ["Wedding", "Planning", "SaaS"],
+        tags: ["Go", "MongoDB", "GCP"],
     },
+]
+
+const techStack = [
+    {name: "Go", icon: "/svg/go.svg"},
+    {name: "Next.js", icon: "/svg/next.svg"},
+    {name: "React", icon: "/svg/react.svg"},
+    {name: "MongoDB", icon: "/svg/mongodb.svg"},
+    {name: "Docker", icon: "/svg/docker.svg"},
+    {name: "Kubernetes", icon: "/svg/kubernetes.svg"},
+    {name: "AWS", icon: "/svg/aws.svg"},
 ]
 
 export default function Home() {
@@ -25,33 +35,62 @@ export default function Home() {
         <div className="min-h-screen flex flex-col">
             <Nav/>
             <main className="flex-1">
-                <section className="relative py-24 sm:py-32 lg:py-40">
+                <section className="relative py-20 sm:py-28 lg:py-32">
                     <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-                        <div className="max-w-3xl">
-                            <p className="text-accent font-medium mb-4">Senior Software Engineer</p>
-                            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground tracking-tight">
-                                Building robust, scalable software solutions
-                            </h1>
-                            <p className="mt-6 text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                                8+ years of experience crafting backend systems, cloud infrastructure, and full-stack applications.
-                                Currently at Weaviate, driving AI-powered workflows and reliable cloud services.
-                            </p>
-                            <div className="mt-10 flex flex-wrap gap-4">
-                                <Link
-                                    href="/projects"
-                                    className="inline-flex items-center px-6 py-3 rounded-lg bg-accent text-accent-foreground font-medium hover:bg-accent-600 transition-colors"
-                                >
-                                    View My Work
-                                    <svg className="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                                    </svg>
-                                </Link>
-                                <Link
-                                    href="/contact"
-                                    className="inline-flex items-center px-6 py-3 rounded-lg border border-border text-foreground font-medium hover:bg-muted transition-colors"
-                                >
-                                    Get in Touch
-                                </Link>
+                        <div className="grid lg:grid-cols-5 gap-12 items-center">
+                            <div className="lg:col-span-3">
+                                <p className="text-accent font-medium mb-4">Senior Software Engineer @ Weaviate</p>
+                                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground tracking-tight">
+                                    Hi, I&apos;m Alexandre
+                                </h1>
+                                <p className="mt-6 text-lg sm:text-xl text-muted-foreground leading-relaxed">
+                                    I build robust, scalable backend systems and full-stack applications. With 8+ years of experience,
+                                    I specialize in Go, TypeScript, and cloud infrastructure—delivering performant solutions that scale.
+                                </p>
+                                <div className="mt-8 flex flex-wrap gap-4">
+                                    <Link
+                                        href="/projects"
+                                        className="inline-flex items-center px-6 py-3 rounded-lg bg-accent text-accent-foreground font-medium hover:bg-accent-600 transition-colors"
+                                    >
+                                        View My Work
+                                        <svg className="ml-2 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                                        </svg>
+                                    </Link>
+                                    <Link
+                                        href="/contact"
+                                        className="inline-flex items-center px-6 py-3 rounded-lg border border-border text-foreground font-medium hover:bg-muted transition-colors"
+                                    >
+                                        Get in Touch
+                                    </Link>
+                                </div>
+                                <div className="mt-10 pt-8 border-t border-border">
+                                    <p className="text-sm text-muted-foreground mb-4">Technologies I work with</p>
+                                    <div className="flex flex-wrap gap-4">
+                                        {techStack.map((tech) => (
+                                            <div key={tech.name} className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-muted">
+                                                <Image src={tech.icon} alt={tech.name} width={20} height={20} className="w-5 h-5"/>
+                                                <span className="text-sm text-foreground">{tech.name}</span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="lg:col-span-2 flex justify-center">
+                                <div className="relative">
+                                    <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-2xl overflow-hidden shadow-2xl">
+                                        <Image
+                                            src="/images/profile.jpeg"
+                                            alt="Alexandre El Khoury"
+                                            width={320}
+                                            height={320}
+                                            className="w-full h-full object-cover"
+                                            priority
+                                        />
+                                    </div>
+                                    <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-xl bg-accent/10 -z-10"/>
+                                    <div className="absolute -top-4 -left-4 w-16 h-16 rounded-lg bg-accent/20 -z-10"/>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -112,46 +151,59 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section className="py-24">
+                <section className="py-20">
                     <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-                        <div className="grid lg:grid-cols-2 gap-12 items-center">
-                            <div>
-                                <p className="text-accent font-medium mb-2">About Me</p>
-                                <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-6">
-                                    Passionate about building great software
-                                </h2>
-                                <p className="text-muted-foreground leading-relaxed mb-6">
-                                    I&apos;m a results-driven software engineer with deep expertise in backend development,
-                                    cloud infrastructure, and full-stack applications. My focus is on delivering performant,
-                                    reliable, and maintainable solutions.
-                                </p>
-                                <p className="text-muted-foreground leading-relaxed mb-8">
-                                    Currently at Weaviate, I take ownership of end-to-end feature development,
-                                    incident response, and cross-team collaboration. I&apos;m passionate about
-                                    AI-powered tools and continuously exploring new technologies.
-                                </p>
-                                <Link
-                                    href="/about"
-                                    className="inline-flex items-center text-accent hover:text-accent-600 font-medium"
-                                >
-                                    Learn more about me
-                                    <svg className="ml-1 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
+                        <div className="text-center mb-12">
+                            <p className="text-accent font-medium mb-2">What I Do</p>
+                            <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
+                                End-to-End Software Development
+                            </h2>
+                        </div>
+                        <div className="grid md:grid-cols-3 gap-8">
+                            <div className="p-6 rounded-xl bg-muted">
+                                <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
+                                    <svg className="w-6 h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/>
                                     </svg>
-                                </Link>
-                            </div>
-                            <div className="relative">
-                                <div className="aspect-square rounded-2xl bg-gradient-to-br from-accent/20 to-accent/5 flex items-center justify-center">
-                                    <div className="text-center p-8">
-                                        <div className="w-32 h-32 mx-auto rounded-full bg-muted border-4 border-background shadow-lg flex items-center justify-center mb-4">
-                                            <span className="text-4xl font-bold text-accent">AK</span>
-                                        </div>
-                                        <p className="text-sm text-muted-foreground">
-                                            Add your professional photo here
-                                        </p>
-                                    </div>
                                 </div>
+                                <h3 className="text-lg font-semibold text-foreground mb-2">Backend Systems</h3>
+                                <p className="text-muted-foreground text-sm">
+                                    Building scalable microservices, APIs, and distributed systems with Go, Node.js, and cloud-native technologies.
+                                </p>
                             </div>
+                            <div className="p-6 rounded-xl bg-muted">
+                                <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
+                                    <svg className="w-6 h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+                                    </svg>
+                                </div>
+                                <h3 className="text-lg font-semibold text-foreground mb-2">Cloud Infrastructure</h3>
+                                <p className="text-muted-foreground text-sm">
+                                    Designing and maintaining resilient cloud services on AWS and GCP with Kubernetes, Docker, and Terraform.
+                                </p>
+                            </div>
+                            <div className="p-6 rounded-xl bg-muted">
+                                <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
+                                    <svg className="w-6 h-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                    </svg>
+                                </div>
+                                <h3 className="text-lg font-semibold text-foreground mb-2">Full-Stack Apps</h3>
+                                <p className="text-muted-foreground text-sm">
+                                    Creating modern web and mobile applications with React, Next.js, and Flutter—from concept to deployment.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="mt-12 text-center">
+                            <Link
+                                href="/about"
+                                className="inline-flex items-center text-accent hover:text-accent-600 font-medium"
+                            >
+                                Learn more about my background
+                                <svg className="ml-1 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
+                                </svg>
+                            </Link>
                         </div>
                     </div>
                 </section>

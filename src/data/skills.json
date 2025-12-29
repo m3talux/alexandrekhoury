@@ -8,21 +8,17 @@
         "title": "Go (Golang)"
       },
       {
-        "imageURL": "/svg/javascript.svg",
-        "title": "Javascript"
-      },
-      {
         "imageURL": "/svg/typescript.svg",
-        "title": "Typescript"
+        "title": "TypeScript"
       },
       {
-        "imageURL": "/svg/python.svg",
-        "title": "Python"
+        "imageURL": "/svg/javascript.svg",
+        "title": "JavaScript"
       }
     ]
   },
   {
-    "title": "Backend",
+    "title": "Backend & Databases",
     "imageURL": "/svg/backend.svg",
     "skills": [
       {
@@ -30,12 +26,12 @@
         "title": "Gin (Go)"
       },
       {
-        "imageURL": "/svg/nodejs.svg",
-        "title": "NodeJS"
-      },
-      {
         "imageURL": "/svg/mongodb.svg",
         "title": "MongoDB"
+      },
+      {
+        "imageURL": "/svg/nodejs.svg",
+        "title": "Node.js"
       },
       {
         "imageURL": "/svg/postgresql.svg",
@@ -48,21 +44,21 @@
     "imageURL": "/svg/frontend.svg",
     "skills": [
       {
-        "imageURL": "/svg/flutter.svg",
-        "title": "Flutter"
+        "imageURL": "/svg/next.svg",
+        "title": "Next.js"
       },
       {
         "imageURL": "/svg/react.svg",
-        "title": "ReactJS"
+        "title": "React"
       },
       {
-        "imageURL": "/svg/angular.svg",
-        "title": "Angular"
+        "imageURL": "/svg/flutter.svg",
+        "title": "Flutter"
       }
     ]
   },
   {
-    "title": "DevOps",
+    "title": "DevOps & Cloud",
     "imageURL": "/svg/devops.svg",
     "skills": [
       {
@@ -72,10 +68,6 @@
       {
         "imageURL": "/svg/kubernetes.svg",
         "title": "Kubernetes"
-      },
-      {
-        "imageURL": "/svg/firebase.svg",
-        "title": "Firebase"
       },
       {
         "imageURL": "/svg/aws.svg",

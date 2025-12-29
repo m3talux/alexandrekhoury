@@ -6,7 +6,27 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://alexandrekhoury.com/</loc>
+        <lastmod>2024-12-29</lastmod>
+        <priority>1.0</priority>
     </url>
-
-
+    <url>
+        <loc>https://alexandrekhoury.com/about</loc>
+        <lastmod>2024-12-29</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://alexandrekhoury.com/experience</loc>
+        <lastmod>2024-12-29</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://alexandrekhoury.com/projects</loc>
+        <lastmod>2024-12-29</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://alexandrekhoury.com/contact</loc>
+        <lastmod>2024-12-29</lastmod>
+        <priority>0.7</priority>
+    </url>
 </urlset>

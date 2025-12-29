@@ -1,6 +1,7 @@
 'use client'
 
 import Link from "next/link";
+import Image from "next/image";
 import {DownloadCVButton} from "@/app/components/download-cv-button";
 
 export default function Footer() {
@@ -10,13 +11,16 @@ export default function Footer() {
         <footer className="border-t border-border bg-muted">
             <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
-                    <div>
-                        <Link href="/" className="text-lg font-semibold text-foreground">
-                            Alexandre El Khoury
-                        </Link>
-                        <p className="mt-2 text-sm text-muted-foreground">
-                            Senior Software Engineer
-                        </p>
+                    <div className="flex items-center gap-3">
+                        <Image src="/svg/logo.svg" alt="Logo" width={32} height={32} className="w-8 h-8"/>
+                        <div>
+                            <Link href="/" className="text-lg font-semibold text-foreground">
+                                Alexandre El Khoury
+                            </Link>
+                            <p className="text-sm text-muted-foreground">
+                                Senior Software Engineer
+                            </p>
+                        </div>
                     </div>
                     <div className="flex items-center gap-6">
                         <a

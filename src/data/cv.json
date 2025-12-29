@@ -2,8 +2,7 @@
   "personal": {
     "name": "Alexandre El Khoury",
     "title": "Senior Software Engineer",
-    "email": "alexandre.elkhoury@outlook.com",
-    "phone": "+33 7 86 23 50 38",
+    "email": "alex.khoury.pro@gmail.com",
     "location": "Paris, France",
     "linkedin": "linkedin.com/in/alexandre-el-khoury",
     "github": "github.com/m3talux",
@@ -58,12 +57,11 @@
     }
   ],
   "skills": {
-    "languages": ["Go", "TypeScript", "JavaScript", "Python"],
+    "languages": ["Go", "TypeScript", "JavaScript"],
     "backend": ["Gin", "Node.js", "NestJS", "REST APIs", "gRPC"],
-    "databases": ["PostgreSQL", "MongoDB", "Redis"],
-    "frontend": ["React", "Next.js", "Flutter", "Angular"],
-    "devops": ["Docker", "Kubernetes", "AWS", "GCP", "CI/CD"],
-    "tools": ["Git", "GitHub Actions", "Terraform", "Datadog"]
+    "databases": ["MongoDB", "PostgreSQL", "Redis"],
+    "frontend": ["Next.js", "React", "Flutter"],
+    "devops": ["Docker", "Kubernetes", "AWS", "GCP", "CI/CD"]
   },
   "education": {
     "degree": "Computer and Communications Engineering",
@@ -84,7 +82,7 @@
     },
     {
       "name": "WeProject",
-      "description": "Wedding planning SaaS platform",
+      "description": "Wedding planning SaaS",
       "role": "Founder & Developer"
     }
   ]

@@ -9,8 +9,12 @@ const inter = Inter({subsets: ['latin'], variable: '--font-inter'})
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://alexandrekhoury.com'),
-    title: 'Alexandre El Khoury | Sr. Software Engineer',
-    description: 'Experienced software engineer | Back-end, cross-platform & front-end dev | Passionate, adaptable & highly productive with clean code.',
+    title: {
+        default: 'Alexandre El Khoury | Senior Software Engineer',
+        template: '%s | Alexandre El Khoury'
+    },
+    description: 'Senior Software Engineer with 8+ years of experience building scalable backend systems. Expert in Go, TypeScript, and cloud infrastructure. Currently at Weaviate.',
+    keywords: ['Software Engineer', 'Backend Developer', 'Go', 'TypeScript', 'Full Stack', 'Cloud Infrastructure', 'Paris', 'France'],
     manifest: '/site.webmanifest',
     icons: [
         {
@@ -47,8 +51,8 @@ export const metadata: Metadata = {
         url: 'https://alexandrekhoury.com',
         locale: 'en_US',
         siteName: 'Alexandre El Khoury',
-        title: 'Alexandre El Khoury | Sr. Software Engineer',
-        description: 'Experienced software engineer with over 8 years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
+        title: 'Alexandre El Khoury | Senior Software Engineer',
+        description: 'Senior Software Engineer with 8+ years of experience building scalable backend systems. Expert in Go, TypeScript, and cloud infrastructure. Currently at Weaviate.',
         images: [
             {
                 url: '/images/og-image.png',
@@ -69,8 +73,9 @@ export const metadata: Metadata = {
         }
     },
     twitter: {
-        title: 'Alexandre El Khoury | Software Engineer',
-        description: 'Experienced software engineer with over 8 years of expertise in back-end development. Skilled in cross-platform and front-end development. Passionate about coding since age 17, adaptable to new technologies. Exceptionally productive, delivering high-quality and clean code efficiently.',
+        card: 'summary_large_image',
+        title: 'Alexandre El Khoury | Senior Software Engineer',
+        description: 'Senior Software Engineer with 8+ years of experience building scalable backend systems. Expert in Go, TypeScript, and cloud infrastructure.',
         images: [
             {
                 url: '/images/og-image.png',

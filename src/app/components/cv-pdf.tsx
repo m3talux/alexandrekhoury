@@ -25,12 +25,12 @@ const styles = StyleSheet.create({
     page: {
         fontFamily: 'Inter',
         fontSize: 10,
-        padding: 40,
+        padding: 32,
         backgroundColor: colors.white,
         color: colors.text,
     },
     header: {
-        marginBottom: 20,
+        marginBottom: 14,
     },
     name: {
         fontSize: 24,
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
         color: colors.muted,
     },
     section: {
-        marginBottom: 16,
+        marginBottom: 10,
     },
     sectionTitle: {
         fontSize: 11,
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
         color: colors.text,
     },
     experienceItem: {
-        marginBottom: 12,
+        marginBottom: 8,
     },
     experienceHeader: {
         flexDirection: 'row',
@@ -123,7 +123,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     skillCategory: {
-        marginBottom: 8,
+        marginBottom: 5,
     },
     skillCategoryTitle: {
         fontSize: 10,
@@ -190,9 +190,9 @@ function CVDocument() {
                     <Text style={styles.title}>{cvData.personal.title}</Text>
                     <View style={styles.contactRow}>
                         <Text style={styles.contactItem}>{cvData.personal.email}</Text>
-                        <Text style={styles.contactItem}>{cvData.personal.phone}</Text>
                         <Text style={styles.contactItem}>{cvData.personal.location}</Text>
                         <Text style={styles.contactItem}>{cvData.personal.linkedin}</Text>
+                        <Text style={styles.contactItem}>{cvData.personal.website}</Text>
                     </View>
                 </View>
 
@@ -258,7 +258,7 @@ function CVDocument() {
                         </View>
 
                         <View style={styles.section}>
-                            <Text style={styles.sectionTitle}>Languages</Text>
+                            <Text style={styles.sectionTitle}>Spoken Languages</Text>
                             {cvData.languages.map((lang, index) => (
                                 <View key={index} style={styles.languageItem}>
                                     <Text style={styles.languageName}>{lang.name}</Text>

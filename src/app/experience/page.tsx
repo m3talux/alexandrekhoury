@@ -27,20 +27,21 @@ export default function ExperiencePage() {
                         </div>
 
                         <div className="relative">
-                            <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-border md:-translate-x-px"/>
+                            {/* Timeline line - left on mobile, center on desktop */}
+                            <div className="absolute left-[18px] md:left-1/2 top-0 bottom-0 w-1 bg-accent md:-translate-x-0.5"/>
 
-                            <div className="space-y-12">
+                            <div className="space-y-8">
                                 {experiences.map((exp, index) => (
                                     <div
                                         key={index}
-                                        className={`relative flex flex-col md:flex-row gap-8 ${
-                                            index % 2 === 0 ? 'md:flex-row-reverse' : ''
-                                        }`}
+                                        className="relative grid md:grid-cols-2 gap-8"
                                     >
-                                        <div className="absolute left-0 md:left-1/2 w-3 h-3 rounded-full bg-accent border-4 border-background -translate-x-1 md:-translate-x-1.5 mt-2"/>
-
-                                        <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'} pl-8 md:pl-0`}>
-                                            <div className="p-6 rounded-xl bg-muted hover:shadow-lg transition-shadow">
+                                        {/* Timeline dot */}
+                                        <div className="absolute left-2 md:left-1/2 w-5 h-5 bg-accent rounded-full border-4 border-background shadow-lg md:-translate-x-2.5 top-6 z-10"/>
+                                        
+                                        {/* Content - alternates sides on desktop */}
+                                        <div className={`pl-12 md:pl-0 ${index % 2 === 0 ? 'md:pr-12 md:col-start-1' : 'md:pl-12 md:col-start-2'}`}>
+                                            <div className="p-5 rounded-xl bg-muted hover:shadow-lg transition-shadow">
                                                 <div className="flex items-start gap-4 mb-4">
                                                     <a
                                                         href={exp.companyURL}
@@ -117,7 +118,6 @@ export default function ExperiencePage() {
                                             </div>
                                         </div>
 
-                                        <div className="hidden md:block md:w-1/2"/>
                                     </div>
                                 ))}
                             </div>
