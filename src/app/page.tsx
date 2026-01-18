@@ -14,7 +14,7 @@ const featuredProjects = [
     {
         name: "WeProject",
         description: "Wedding planning SaaS platform. Manage guests, budgets, seating arrangements, and to-do lists all in one place. Built for couples planning their perfect day.",
-        url: "https://app.theweproject.co",
+        url: "https://theweproject.co",
         role: "Founder & Developer",
         tags: ["Go", "MongoDB", "GCP"],
     },

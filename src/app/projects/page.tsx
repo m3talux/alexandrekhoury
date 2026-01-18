@@ -22,7 +22,7 @@ const featuredProjects = [
     {
         name: "WeProject",
         description: "Wedding planning SaaS platform for couples. Manage guest lists with RSVP tracking, create seating arrangements with drag-and-drop, track budgets and expenses, organize to-do lists with timelines, and collaborate with your partner in real-time.",
-        url: "https://app.theweproject.co",
+        url: "https://theweproject.co",
         role: "Founder & Lead Developer",
         tags: ["Next.js", "TypeScript", "PostgreSQL", "SaaS", "MobX"],
         featured: true,
@@ -85,7 +85,7 @@ export default function ProjectsPage() {
                                 </a>
 
                                 <a
-                                    href="https://app.theweproject.co"
+                                    href="https://theweproject.co"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="group block rounded-2xl bg-muted hover:shadow-xl transition-all duration-300 border border-transparent hover:border-accent/30 overflow-hidden"
