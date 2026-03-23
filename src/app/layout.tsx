@@ -3,6 +3,7 @@ import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import Script from "next/script";
 import {SpeedInsights} from "@vercel/speed-insights/next"
+import {Analytics} from "@vercel/analytics/react"
 import {ThemeProvider} from "@/app/components/theme-provider"
 
 const inter = Inter({subsets: ['latin'], variable: '--font-inter'})
@@ -98,6 +99,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
             {children}
         </ThemeProvider>
         <SpeedInsights/>
+        <Analytics/>
         </body>
         <Script src={`https://www.googletagmanager.com/gtag/js?id=G-29C9W2YKSB`} strategy="afterInteractive"/>
         <Script id="google-analytics" strategy="afterInteractive">
